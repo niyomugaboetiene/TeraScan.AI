@@ -61,10 +61,13 @@ const Prediction = () => {
                  <h1 className="text-center text-white font-bold text-6xl">Scan your Potato Leaf</h1>
                  <p className="text-center text-white mt-6 text-2xl">Upload  a clear image of a potato leaf to detect its diseases <br />using our AI model.</p>
                </div>
-               <div className="mt-12 flex justify-center border-2 border-dashed rounded-2xl border-emerald-500 p-3">
-                      <div className="text-white text-6xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-upload preview-icon"><path d="M12 13v8"/><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="m8 17 4-4 4 4"/></svg>        
-                      </div>
+               <div className="mt-12 flex justify-center border-2 border-dashed rounded-2xl border-emerald-500 p-3 mx-auto max-w-3xl">
+                    <div className="text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-upload preview-icon"><path d="M12 13v8"/><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="m8 17 4-4 4 4"/></svg>        
+                    </div>
+                    <div>
+                      
+                    </div>
                </div>
           </div>
      </div>
