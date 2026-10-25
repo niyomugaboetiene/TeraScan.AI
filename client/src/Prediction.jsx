@@ -108,12 +108,43 @@ const Prediction = () => {
                     </div>
                </div>
 
-               {preview && (
-                  <div className="mt-12 border border-slate-700 mx-auto max-w-3xl py-4 px-6">
-                        <h1 className="text-white font-bold mb-3 text-xl">Image Preview</h1>
-                        <img src={preview} alt="" className="w-40 h-40 object-cover rounded-xl" />
+              {preview && image && (
+                <div className="mt-12 mx-auto flex max-w-3xl items-center gap-5 rounded-xl border border-slate-700 bg-[#062B36] p-4">
+
+                  <img
+                    src={preview}
+                    alt="Selected file preview"
+                    className="h-24 w-24 shrink-0 rounded-xl object-cover"
+                  />
+
+                  <div className="min-w-0 flex-1">
+                    <h1 className="mb-2 text-lg font-bold text-white">
+                      Image Preview
+                    </h1>
+
+                    <p className="truncate text-sm text-slate-200">
+                      {image.name}
+                    </p>
+
+                    <p className="mt-1 text-sm text-slate-400">
+                      {(image.size / 1024).toFixed(2)} KB
+                    </p>
                   </div>
-               )}
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setImage(null);
+                      setPreview("");
+                    }}
+                    className="shrink-0 rounded-lg border border-red-500/40 px-4 py-2 text-sm font-semibold text-red-400 transition hover:bg-red-500 hover:text-white"
+                  >
+                    Remove
+                  </button>
+
+                </div>
+              )}
+
           </div>
      </div>
   );
