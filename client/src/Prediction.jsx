@@ -61,7 +61,7 @@ const Prediction = () => {
                  <h1 className="text-center text-white font-bold text-6xl">Scan your Potato Leaf</h1>
                  <p className="text-center text-white mt-6 text-2xl">Upload  a clear image of a potato leaf to detect its diseases <br />using our AI model.</p>
                </div>
-               <div className="mt-12 border-2 border-dashed rounded-2xl border-emerald-500 p-3 mx-auto max-w-3xl">
+               <div className="mt-12 border-2 border-dashed rounded-2xl border-emerald-500 py-10 p-3 mx-auto max-w-3xl">
                     <div className="text-white flex justify-center mt-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-upload preview-icon"><path d="M12 13v8"/><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="m8 17 4-4 4 4"/></svg>        
                     </div>
@@ -70,7 +70,7 @@ const Prediction = () => {
                         <p className="text-center text-slate-100 text-xl">or</p>
                     </div>
                           
-                    <div className="mt-4 flex w-1/4 mx-auto flex-row items-center justify-center gap-3 rounded-2xl bg-emerald-400 py-3 text-slate-100">
+                    <div className="mt-6 flex w-1/4 mx-auto flex-row items-center justify-center gap-3  rounded-2xl bg-emerald-500 py-4 text-slate-100">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -102,7 +102,7 @@ const Prediction = () => {
                         className="hidden"
                       />
                     </div>
-                    <div>
+                    <div className="text-center text-slate-100 mt-8">
                       <p>Supported formats: JPG, JPEG, PNG (Max: 5MB)</p>
                     </div>
                </div>
