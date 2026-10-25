@@ -28,8 +28,8 @@ const Result = () => {
             <div className="text-emerald-400 mt-6 ms-3">
                <Link className="inline-flex"><FiArrowLeft className="mt-1 me-2"/>Scan Again</Link>
             </div>
-            <div className="border border-emerald-400 bg-emerald-200 backdrop-blur-2xl">
-                
+            <div className="border border-emerald-400 bg-emerald-400 backdrop-blur-2xl flex p-6 mt-5">
+                <img src={preview} alt="" className="w-120 h-160 rounded-3xl object-cover"/>
             </div>
          </div>
         </div>
