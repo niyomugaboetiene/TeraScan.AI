@@ -102,6 +102,9 @@ const Prediction = () => {
                         className="hidden"
                       />
                     </div>
+                    <div>
+                      <p>Supported formats: JPG, JPEG, PNG (Max: 5MB)</p>
+                    </div>
                </div>
           </div>
      </div>
