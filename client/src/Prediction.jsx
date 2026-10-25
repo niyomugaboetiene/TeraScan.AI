@@ -110,7 +110,8 @@ const Prediction = () => {
 
                {preview && (
                   <div className="mt-12 border border-slate-700 mx-auto max-w-3xl py-4 px-6">
-                        <img src={preview} alt="" className="w-40 h-40 object-cover"/>
+                        <h1 className="text-white font-bold mb-3 text-xl">Image Preview</h1>
+                        <img src={preview} alt="" className="w-40 h-40 object-cover rounded-xl" />
                   </div>
                )}
           </div>
