@@ -107,6 +107,12 @@ const Prediction = () => {
                       <p>Supported formats: JPG, JPEG, PNG (Max: 5MB)</p>
                     </div>
                </div>
+
+               {preview && (
+                  <div className="mt-4 border border-slate-700">
+                        <img src={preview} alt="" />
+                  </div>
+               )}
           </div>
      </div>
   );
