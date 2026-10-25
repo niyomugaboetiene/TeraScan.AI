@@ -1,4 +1,5 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { FiArrowLeft } from "react-icons/fi";
+import { useLocation, useNavigate, Link } from "react-router-dom";
 
 const Result = () => {
     const { state } = useLocation();
@@ -22,7 +23,11 @@ const Result = () => {
     const Confidence = typeof result.Confidence === "number" ? Math.min(100, Math.max(0, result.Confidence * 100)) : null;
 
     return (
-        
+        <div className="relative w-full min-h-screen bg-[#06131F] overflow-hidden">
+          <div className="text-emerald-400 mt-6 ms-3">
+              <Link className="inline-flex"><FiArrowLeft className="mt-1 me-2"/>Scan Again</Link>
+          </div>
+        </div>
     )
 }
 
