@@ -98,11 +98,10 @@ const Prediction = () => {
                       <input
                         id="file-upload"
                         type="file"
-                        accept="image/*"
+                        accept="image/jpeg, image/png, image/jpg"
                         className="hidden"
                       />
                     </div>
-
                </div>
           </div>
      </div>
