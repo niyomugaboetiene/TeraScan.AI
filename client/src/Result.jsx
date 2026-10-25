@@ -16,4 +16,14 @@ const Result = () => {
             </main>
         )
     }
+
+    const { result, preview } = state;
+    
+    const Confidence = typeof result.Confidence === "number" ? Math.min(100, Math.max(0, result.Confidence * 100)) : null;
+
+    return (
+        
+    )
 }
+
+export default Result;

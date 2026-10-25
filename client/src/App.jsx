@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Entry from "./Entry";
-import Prediction from "./Prediction";
+import Result from "./Result";
 
 function App() {
   return (
       <BrowserRouter>
           <Routes>
                <Route path="/" element={<Entry />}/>
-               <Route path="/prediction" element={<Prediction />}/>
+               <Route path="/result" element={<Result />}/>
           </Routes>
       </BrowserRouter>
   )
