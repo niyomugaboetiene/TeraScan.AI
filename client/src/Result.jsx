@@ -24,9 +24,14 @@ const Result = () => {
 
     return (
         <div className="relative w-full min-h-screen bg-[#06131F] overflow-hidden">
-          <div className="text-emerald-400 mt-6 ms-3">
-              <Link className="inline-flex"><FiArrowLeft className="mt-1 me-2"/>Scan Again</Link>
-          </div>
+         <div className="max-w-6xl mx-auto">
+            <div className="text-emerald-400 mt-6 ms-3">
+               <Link className="inline-flex"><FiArrowLeft className="mt-1 me-2"/>Scan Again</Link>
+            </div>
+            <div className="border border-emerald-400 bg-emerald-200 backdrop-blur-2xl">
+                
+            </div>
+         </div>
         </div>
     )
 }
