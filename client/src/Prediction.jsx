@@ -100,6 +100,7 @@ const Prediction = () => {
                         type="file"
                         accept="image/jpeg, image/png, image/jpg"
                         className="hidden"
+                        onChange={handleFileChange}
                       />
                     </div>
                     <div className="text-center text-slate-100 mt-8">
