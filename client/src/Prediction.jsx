@@ -69,6 +69,11 @@ const Prediction = () => {
                         <p className="text-center text-slate-100 text-xl">Drag and drop your image here</p>
                         <p className="text-center text-slate-100 text-xl">or</p>
                     </div>
+                    <div className="mt-4">
+                         <button>
+                            
+                         </button>
+                    </div>
                </div>
           </div>
      </div>
