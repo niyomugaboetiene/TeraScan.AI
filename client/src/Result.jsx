@@ -36,37 +36,37 @@ const Result = () => {
                              <svg xmlns="http://www.w3.org/2000/svg" className="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg>DETECTION SUCCESSFULL
                         </p>
                     </div>
-                    <div className="text-white mt-6 ms-5">
+
+                    <div className="text-white mt-6 ms-5 w-400">
                         <h1 className="text-6xl font-bold">{result.Class}</h1>
+                   
+                            <div className="mt-14 w-150">
+                            <div className="mb-2 flex items-center justify-between">
+                                <span className="text-sm font-medium text-slate-300">
+                                Confidence Level
+                                </span>
 
-                        <div className="mt-6 w-full max-w-md">
-                        <div className="mb-2 flex items-center justify-between">
-                            <span className="text-sm font-medium text-slate-300">
-                            Confidence Level
-                            </span>
+                                <span className="text-lg font-bold text-emerald-400">
+                                {(result.Confidence * 100).toFixed(1)}%
+                                </span>
+                            </div>
 
-                            <span className="text-lg font-bold text-emerald-400">
-                            {(result.Confidence * 100).toFixed(1)}%
-                            </span>
-                        </div>
+                            <div className="h-3 w-full overflow-hidden rounded-full bg-slate-700">
+                                <div
+                                className="h-full rounded-full bg-gradient-to-r from-green-500 via-green-400 to-emerald-300 transition-all duration-1000"
+                                style={{
+                                    width: `${Math.min(100, Math.max(0, result.Confidence * 100))}%`,
+                                }}
+                                />
+                            </div>
 
-                        {/* Gradient confidence bar */}
-                        <div className="h-3 w-full overflow-hidden rounded-full bg-slate-700">
-                            <div
-                            className="h-full rounded-full bg-gradient-to-r from-red-500 via-yellow-400 to-emerald-400 transition-all duration-1000"
-                            style={{
-                                width: `${Math.min(100, Math.max(0, result.Confidence * 100))}%`,
-                            }}
-                            />
-                        </div>
-
-                        <div className="mt-2 flex justify-between text-xs text-slate-400">
-                            <span>Low</span>
-                            <span>Medium</span>
-                            <span>High</span>
-                        </div>
-                        </div>
-                    </div>
+                            <div className="mt-2 flex justify-between text-xs text-slate-400">
+                                <span>Low</span>
+                                <span>Medium</span>
+                                <span>High</span>
+                            </div>
+                            </div>
+                            </div>
                 </div>
             </div>
          </div>
