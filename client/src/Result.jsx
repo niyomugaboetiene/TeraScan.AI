@@ -69,7 +69,19 @@ const Result = () => {
                                 <div className="bg-emerald-100/10 backdrop-blur-md px-4 py-1 mt-14 w-full flex rounded-xl border border-emerald-200/30">
                                        <p className="text-lg">This leaf shows symptoms of Ealiry Bright. <br />You should take action soon to prevent further spread.</p>
                                </div> 
-                     )}
+                            )}
+                            
+                            {result.Class === "Late Bright" && (
+                                <div className="bg-emerald-100/10 backdrop-blur-md px-4 py-1 mt-14 w-full flex rounded-xl border border-emerald-200/30">
+                                       <p className="text-lg">This leaf shows symptoms of Late Bright. <br />You should take action soon to prevent further spread.</p>
+                               </div> 
+                            )}
+                            
+                            {result.Class === "Healthy" && (
+                                <div className="bg-emerald-100/10 backdrop-blur-md px-4 py-1 mt-14 w-full flex rounded-xl border border-emerald-200/30">
+                                       <p className="text-lg">This leaf has no disease. <br />You should keep testing your crops to keep make it healthy.</p>
+                               </div> 
+                            )}
                         </div>
                      </div>
                 </div>
