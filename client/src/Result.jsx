@@ -88,7 +88,8 @@ const Result = () => {
             </div>
 
             {result.Class === "Earily Bright" && (
-                
+                <>
+                </>
             )}
          </div>
         </div>
