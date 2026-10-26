@@ -24,12 +24,12 @@ const Result = () => {
 
     return (
         <div className="relative w-full min-h-screen bg-[#06131F] overflow-hidden">
-         <div className="max-w-6xl mx-auto">
+         <div className="max-w-4xl mx-auto">
             <div className="text-emerald-400 mt-6 ms-3">
                <Link className="inline-flex"><FiArrowLeft className="mt-1 me-2"/>Scan Again</Link>
             </div>
             <div className="mt-5 flex rounded-2xl border border-emerald-200/30 bg-emerald-300/10 p-6 backdrop-blur-2xl">
-                <img src={preview} alt="" className="w-120 h-160 rounded-3xl object-cover"/>
+                <img src={preview} alt="" className="w-100 h-110 rounded-3xl object-cover"/>
                 <div>
                     <div className="bg-emerald-100/10 backdrop-blur-md px-4 py-1 mt-4 w-fit rounded-full ms-5">
                         <p className="text-emerald-400 font-bold text-center inline-flex mt-1">
@@ -40,7 +40,7 @@ const Result = () => {
                     <div className="text-white mt-6 ms-5 w-400">
                         <h1 className="text-6xl font-bold">{result.Class}</h1>
                    
-                            <div className="mt-14 w-150">
+                            <div className="mt-14 w-110">
                             <div className="mb-2 flex items-center justify-between">
                                 <span className="text-sm font-medium text-slate-300">
                                 Confidence Level
@@ -65,12 +65,12 @@ const Result = () => {
                                 <span>Medium</span>
                                 <span>High</span>
                             </div>
-                        </div>
-                      {result.Class === "Earily Bright" && (
-                       <div className="bg-emerald-100/10 backdrop-blur-md px-4 py-1 mt-4 w-full flex rounded-full ms-5">
-                        
-                      </div> 
+                           {result.Class === "Earily Bright" && (
+                                <div className="bg-emerald-100/10 backdrop-blur-md px-4 py-1 mt-14 w-full flex rounded-xl border border-emerald-200/30">
+                                       <p className="text-lg">This leaf shows symptoms of Ealiry Bright. <br />You should take action soon to prevent further spread.</p>
+                               </div> 
                      )}
+                        </div>
                      </div>
                 </div>
   
