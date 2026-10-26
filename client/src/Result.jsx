@@ -68,9 +68,12 @@ const Result = () => {
                         </div>
                      </div>
                 </div>
-                {/* <div className="bg-emerald-100/10 backdrop-blur-md px-4 py-1 mt-4 w-full flex rounded-full ms-5">
-                     
-                </div> */}
+                {result.Class === "Earily Bright" && (
+                       {/* <div className="bg-emerald-100/10 backdrop-blur-md px-4 py-1 mt-4 w-full flex rounded-full ms-5">
+                        
+                      </div> */}
+                )}
+  
             </div>
          </div>
         </div>
