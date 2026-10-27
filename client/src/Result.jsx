@@ -114,8 +114,8 @@ const Result = () => {
                             <h1>Prevention and Treatment</h1>
                                  <p><span>.</span> <span>Use disease-free seed potatoes</span></p>
                                  <p><span>.</span> <span>Practice crop rotation</span></p>
-                                 <p><span>.</span> <span>Use disease-free seed potatoes</span></p>
-                                 <p><span>.</span> <span>Use disease-free seed potatoes</span></p>
+                                 <p><span>.</span> <span>Avoid overhead imigation</span></p>
+                                 <p><span>.</span> <span>Apply recommended fungicides</span></p>
                          </div>
                     </div>
                 </div>
