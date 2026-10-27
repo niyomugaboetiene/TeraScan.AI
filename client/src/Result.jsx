@@ -106,8 +106,8 @@ const Result = () => {
                          <div>
                             <h1>Symptoms</h1>
                             <p><span>.</span> <span>Brown spots with concentric rings</span></p>
-                            <p><span>.</span> <span>Brown spots with concentric rings</span></p>
-                            <p><span>.</span> <span>Brown spots with concentric rings</span></p>
+                            <p><span>.</span> <span>Yellowing of leaves</span></p>
+                            <p><span>.</span> <span>Leaf drops in serve cases</span></p>
                          </div>
                     </div>
                 </div>
