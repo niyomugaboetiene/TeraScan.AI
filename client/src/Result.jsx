@@ -104,18 +104,18 @@ const Result = () => {
 
                     <div className="mt-5 flex justify-between p-4">
                          <div>
-                            <h1 className="text-slate-100 font-bold text-lg">Symptoms</h1>
+                            <h1 className="text-slate-100 font-bold text-lg mb-4">Symptoms</h1>
                             <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Brown spots with concentric rings</span></p>
-                            <p><span>.</span> <span className="text-slate-100 font-light">Yellowing of leaves</span></p>
-                            <p><span>.</span> <span className="text-slate-100 font-light">Leaf drops in serve cases</span></p>
+                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span><span className="text-slate-100 font-light">Yellowing of leaves</span></p>
+                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Leaf drops in serve cases</span></p>
                          </div>
 
                          <div>
-                            <h1>Prevention and Treatment</h1>
-                                 <p><span>.</span> <span className="text-slate-100 font-light">Use disease-free seed potatoes</span></p>
-                                 <p><span>.</span> <span className="text-slate-100 font-light">Practice crop rotation</span></p>
-                                 <p><span>.</span> <span className="text-slate-100 font-light">Avoid overhead imigation</span></p>
-                                 <p><span>.</span> <span className="text-slate-100 font-light">Apply recommended fungicides</span></p>
+                            <h1 className="text-slate-100 font-bold text-lg mb-4">Prevention and Treatment</h1>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Use disease-free seed potatoes</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Practice crop rotation</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Avoid overhead imigation</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Apply recommended fungicides</span></p>
                          </div>
                     </div>
                 </div>
