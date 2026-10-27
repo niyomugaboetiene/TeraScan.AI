@@ -140,8 +140,8 @@ const Result = () => {
                         <div>
                             <h1 className="text-slate-100 font-bold text-lg mb-3">Disease Information</h1>
                             <p className="text-slate-100 font-light">Late blight of potato is a destructive plant disease  
-                                <br />caused by the oomycete (water mold) Phytophthora infestans, which affects potatoes, tomatoes<br />
-                                   and other members of the nightshade family.
+                                <br />caused by the oomycete (water mold) Phytophthora infestans,<br />
+                                   which affects potatoes, tomatoes and other members of the nightshade family.
                                 </p>
                         </div>
                     </div>
