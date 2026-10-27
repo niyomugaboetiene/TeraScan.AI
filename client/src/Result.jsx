@@ -88,8 +88,8 @@ const Result = () => {
             </div>
 
             {result.Class === "Earily Bright" && (
-                <div>
-
+                <div className="mt-5 flex rounded-2xl border border-emerald-200/30 bg-emerald-400/10 p-6 backdrop-blur-2xl">
+                    
                 </div>
             )}
          </div>
