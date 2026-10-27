@@ -109,6 +109,14 @@ const Result = () => {
                             <p><span>.</span> <span>Yellowing of leaves</span></p>
                             <p><span>.</span> <span>Leaf drops in serve cases</span></p>
                          </div>
+
+                         <div>
+                            <h1>Prevention and Treatment</h1>
+                                 <p><span>.</span> <span>Use disease-free seed potatoes</span></p>
+                                 <p><span>.</span> <span>Practice crop rotation</span></p>
+                                 <p><span>.</span> <span>Use disease-free seed potatoes</span></p>
+                                 <p><span>.</span> <span>Use disease-free seed potatoes</span></p>
+                         </div>
                     </div>
                 </div>
             )}
