@@ -90,7 +90,7 @@ const Result = () => {
             {result.Class === "Earily Bright" && (
                 <div className="mt-5 rounded-2xl border border-emerald-200/30 bg-emerald-400/10 p-6 backdrop-blur-2xl">
                     <div className="flex space-x-5">
-                        <div className="text-white bg-emerald-600 p-2 py-3 rounded-lg h-14">
+                        <div className="text-slate-100 bg-emerald-600 p-3 py-3 rounded-lg h-14">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-bookmark preview-icon"><path d="M10 2v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834A.25.25 0 0016 9.751V2"/><path d="M4 19.5v-15A2.5 2.5 0 016.5 2H19a1 1 0 011 1v18a1 1 0 01-1 1H6.5a1 1 0 010-5H20"/></svg>
                         </div>
                         <div>
@@ -102,7 +102,7 @@ const Result = () => {
                         </div>
                     </div>
 
-                    <div className="mt-3 flex justify-between">
+                    <div className="mt-4 flex justify-between">
                          <div>
                             <h1>Symptoms</h1>
                             <p><span>.</span> <span>Brown spots with concentric rings</span></p>
