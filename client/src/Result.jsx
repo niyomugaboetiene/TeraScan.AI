@@ -159,7 +159,7 @@ const Result = () => {
                                  <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Use Certified, Disease-Free Seed Tubers</span></p>
                                  <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Practice Crop Rotation</span></p>
                                  <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Optimize Spacing and Watering</span></p>
-                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Apply recommended fungicides</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Remove Volunteer Plants and Sanitation Debris</span></p>
                          </div>
                     </div>
                     <div className="flex justify-between p-3">
