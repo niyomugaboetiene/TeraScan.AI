@@ -139,9 +139,9 @@ const Result = () => {
                         </div>
                         <div>
                             <h1 className="text-slate-100 font-bold text-lg mb-3">Disease Information</h1>
-                            <p className="text-slate-100 font-light">Ealiry bright is fungist disease that affect potato leaves, 
-                                <br /> causing brown spots with concentric rings. it can reduce <br />
-                                yeild if not controlled early
+                            <p className="text-slate-100 font-light">Late blight of potato is a destructive plant disease  
+                                <br />caused by the oomycete (water mold) Phytophthora infestans, which affects potatoes, tomatoes<br />
+                                   and other members of the nightshade family.
                                 </p>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ const Result = () => {
                     <div className="mt-5 flex justify-between p-4">
                          <div>
                             <h1 className="text-slate-100 font-bold text-lg mb-4">Symptoms</h1>
-                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Brown spots with concentric rings</span></p>
+                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Water-soaked leaf lesions</span></p>
                             <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span><span className="text-slate-100 font-light">Yellowing of leaves</span></p>
                             <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Leaf drops in serve cases</span></p>
                          </div>
