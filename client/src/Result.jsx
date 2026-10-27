@@ -130,6 +130,50 @@ const Result = () => {
                     </div>
                 </div>
             )}
+            
+            {result.Class === "Late Bright" && (
+                <div className="mt-5 rounded-2xl border border-emerald-200/30 bg-emerald-400/10 p-6 backdrop-blur-2xl">
+                    <div className="flex space-x-5">
+                        <div className="text-slate-100 bg-emerald-600 p-3 py-3 rounded-lg h-14">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-bookmark preview-icon"><path d="M10 2v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834A.25.25 0 0016 9.751V2"/><path d="M4 19.5v-15A2.5 2.5 0 016.5 2H19a1 1 0 011 1v18a1 1 0 01-1 1H6.5a1 1 0 010-5H20"/></svg>
+                        </div>
+                        <div>
+                            <h1 className="text-slate-100 font-bold text-lg mb-3">Disease Information</h1>
+                            <p className="text-slate-100 font-light">Ealiry bright is fungist disease that affect potato leaves, 
+                                <br /> causing brown spots with concentric rings. it can reduce <br />
+                                yeild if not controlled early
+                                </p>
+                        </div>
+                    </div>
+
+                    <div className="mt-5 flex justify-between p-4">
+                         <div>
+                            <h1 className="text-slate-100 font-bold text-lg mb-4">Symptoms</h1>
+                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Brown spots with concentric rings</span></p>
+                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span><span className="text-slate-100 font-light">Yellowing of leaves</span></p>
+                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Leaf drops in serve cases</span></p>
+                         </div>
+
+                         <div>
+                            <h1 className="text-slate-100 font-bold text-lg mb-4">Prevention and Treatment</h1>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Use disease-free seed potatoes</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Practice crop rotation</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Avoid overhead imigation</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Apply recommended fungicides</span></p>
+                         </div>
+                    </div>
+                    <div className="flex justify-between p-3">
+                        <button className="w-95 cursor-pointer rounded-lg text-slate-100 inline-flex bg-emerald-400 justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scan-eye preview-icon"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="1"/><path d="M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0"/></svg>
+                            <span className="ms-5 font-bold">View More Details</span>
+                        </button>
+                        <button className="w-95 cursor-pointer py-3 rounded-lg  text-slate-100 inline-flex bg-emerald-100/10 backdrop-blur-md  border border-emerald-200/30 justify-center items-center" onClick={() => navigate('/')}>
+                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scan preview-icon"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/></svg>
+                               <span className="ms-5">Scan Another Image</span>
+                        </button>
+                    </div>
+                </div>
+            )}
          </div>
         </div>
     )
