@@ -106,16 +106,16 @@ const Result = () => {
                          <div>
                             <h1 className="text-slate-100 font-bold text-lg">Symptoms</h1>
                             <p><span className="text-emerald-400">.</span> <span className="text-slate-100 font-light">Brown spots with concentric rings</span></p>
-                            <p><span>.</span> <span>Yellowing of leaves</span></p>
-                            <p><span>.</span> <span>Leaf drops in serve cases</span></p>
+                            <p><span>.</span> <span className="text-slate-100 font-light">Yellowing of leaves</span></p>
+                            <p><span>.</span> <span className="text-slate-100 font-light">Leaf drops in serve cases</span></p>
                          </div>
 
                          <div>
                             <h1>Prevention and Treatment</h1>
-                                 <p><span>.</span> <span>Use disease-free seed potatoes</span></p>
-                                 <p><span>.</span> <span>Practice crop rotation</span></p>
-                                 <p><span>.</span> <span>Avoid overhead imigation</span></p>
-                                 <p><span>.</span> <span>Apply recommended fungicides</span></p>
+                                 <p><span>.</span> <span className="text-slate-100 font-light">Use disease-free seed potatoes</span></p>
+                                 <p><span>.</span> <span className="text-slate-100 font-light">Practice crop rotation</span></p>
+                                 <p><span>.</span> <span className="text-slate-100 font-light">Avoid overhead imigation</span></p>
+                                 <p><span>.</span> <span className="text-slate-100 font-light">Apply recommended fungicides</span></p>
                          </div>
                     </div>
                 </div>
