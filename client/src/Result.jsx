@@ -102,8 +102,13 @@ const Result = () => {
                         </div>
                     </div>
 
-                    <div className="mt-3 flex flex-1 space-x-5">
-
+                    <div className="mt-3 flex justify-between">
+                         <div>
+                            <h1>Symptoms</h1>
+                            <p><span>.</span> <span>Brown spots with concentric rings</span></p>
+                            <p><span>.</span> <span>Brown spots with concentric rings</span></p>
+                            <p><span>.</span> <span>Brown spots with concentric rings</span></p>
+                         </div>
                     </div>
                 </div>
             )}
