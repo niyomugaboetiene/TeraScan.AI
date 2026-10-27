@@ -150,8 +150,8 @@ const Result = () => {
                          <div>
                             <h1 className="text-slate-100 font-bold text-lg mb-4">Symptoms</h1>
                             <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Water-soaked leaf lesions</span></p>
-                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span><span className="text-slate-100 font-light">Yellowing of leaves</span></p>
-                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Leaf drops in serve cases</span></p>
+                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span><span className="text-slate-100 font-light">White fungal-like fuzz</span></p>
+                            <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Firm, reddish-brown tuber rot</span></p>
                          </div>
 
                          <div>
