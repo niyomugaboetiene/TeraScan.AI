@@ -156,9 +156,9 @@ const Result = () => {
 
                          <div>
                             <h1 className="text-slate-100 font-bold text-lg mb-4">Prevention and Treatment</h1>
-                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Use disease-free seed potatoes</span></p>
-                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Practice crop rotation</span></p>
-                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Avoid overhead imigation</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Use Certified, Disease-Free Seed Tubers</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Practice Crop Rotation</span></p>
+                                 <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Optimize Spacing and Watering</span></p>
                                  <p><span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 me-1 mb-1"></span> <span className="text-slate-100 font-light">Apply recommended fungicides</span></p>
                          </div>
                     </div>
