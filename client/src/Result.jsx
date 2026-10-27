@@ -101,6 +101,10 @@ const Result = () => {
                                 </p>
                         </div>
                     </div>
+
+                    <div className="mt-3 flex flex-1 space-x-5">
+
+                    </div>
                 </div>
             )}
          </div>
