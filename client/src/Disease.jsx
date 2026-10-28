@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import Earily from "./assets/ealiry.jpeg"
+import healithy from "./assets/healithy.jpg"
+import Late from "./assets/Late_bright.jpg"
 
 const Disease = () => {
     const [MenuToOpen, setMenuToOpen] = useState(1);
@@ -18,7 +21,9 @@ const Disease = () => {
 
                     {MenuToOpen === 1 && (
                           <div className="flex space-x-12">
-                                 
+                                 <div>
+                                    <img src={} alt="Earily Bright" />
+                                 </div>
                           </div>
                     )}
             </div>
