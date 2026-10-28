@@ -32,14 +32,16 @@ const Disease = () => {
                                        slams and tubers. it is more common in warm and hurrid <br />
                                       conditions and can cause significant yield loss if not <br /> managed ealiry
                                     </p>
+
+                                  <div>
+                                       <h1>Key Symptoms</h1>
+                                       <p><span></span> <span>Brown spots with concentric rings</span></p>
+                                       <p><span></span> <span>Brown spots with concentric rings</span></p>
+                                       <p><span></span> <span>Brown spots with concentric rings</span></p>
+                                       <p><span></span> <span>Brown spots with concentric rings</span></p>
                                  </div>
-                                 <div>
-                                    <h1>Key Symptoms</h1>
-                                    <p><span></span> <span>Brown spots with concentric rings</span></p>
-                                    <p><span></span> <span>Brown spots with concentric rings</span></p>
-                                    <p><span></span> <span>Brown spots with concentric rings</span></p>
-                                    <p><span></span> <span>Brown spots with concentric rings</span></p>
                                  </div>
+
                           </div>
                     )}
             </div>
