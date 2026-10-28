@@ -35,6 +35,10 @@ const Disease = () => {
                                  </div>
                                  <div>
                                     <h1>Key Symptoms</h1>
+                                    <p><span></span> <span>Brown spots with concentric rings</span></p>
+                                    <p><span></span> <span>Brown spots with concentric rings</span></p>
+                                    <p><span></span> <span>Brown spots with concentric rings</span></p>
+                                    <p><span></span> <span>Brown spots with concentric rings</span></p>
                                  </div>
                           </div>
                     )}
