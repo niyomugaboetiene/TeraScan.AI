@@ -9,8 +9,8 @@ const Disease = () => {
 
                     <div className="flex space-x-12 mt-10">
                         <button className={`text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Earily Bright</button>
-                        <button>Late Bright</button>
-                        <button>Healthy</button>
+                        <button className={`text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Late Bright</button>
+                        <button className={`text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Healthy</button>
                     </div>
             </div>
         </div>
