@@ -29,7 +29,7 @@ const Disease = () => {
                                     <h1 className="text-3xl text-slate-100 font-bold">Ealiry Bright</h1>
                                     <p className="mt-2 text-slate-100 text-xl">(Alternaria Solani)</p>
 
-                                    <p className="text-slate-100 text-xl mt-12">Ealiry Bright is a fungal disease that affects potato leaves <br />
+                                    <p className="text-slate-100 mt-12">Ealiry Bright is a fungal disease that affects potato leaves <br />
                                        slams and tubers. it is more common in warm and hurrid <br />
                                       conditions and can cause significant yield loss if not <br /> managed ealiry
                                     </p>
@@ -123,34 +123,34 @@ const Disease = () => {
                                  </div>
                           </div>
 
-                          <div className="mt-3">
-                              <h1>Prevention Tips</h1>
+                          <div className="mt-12 ">
+                              <h1 className="text-3xl text-slate-100 font-bold mb-6">Prevention Tips</h1>
                               <p className="text-slate-100 mt-2 flex items-center">
                                         <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500 me-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="text-emerald-300" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check preview-icon"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m16 9-5.5 5.5L8 12"/></svg>
                                         </span>
-                                        <span className="text-xl">Use Certified, disease-free seed potatoes</span>
+                                        <span className="">Use Certified, disease-free seed potatoes</span>
+                              </p>
+                              
+                              <p className="text-slate-100 mt-2 flex items-center mb-6">
+                                        <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500 me-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="text-emerald-300" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check preview-icon"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m16 9-5.5 5.5L8 12"/></svg>
+                                        </span>
+                                        <span className="">Rotate crops (avoid planting potatoes in the same field)</span>
                               </p>
                               
                               <p className="text-slate-100 mt-2 flex items-center">
                                         <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500 me-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="text-emerald-300" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check preview-icon"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m16 9-5.5 5.5L8 12"/></svg>
                                         </span>
-                                        <span className="text-xl">Rotate crops (avoid planting potatoes in the same field)</span>
+                                        <span className="">Ensure proper spacing  and good air curculation</span>
                               </p>
                               
                               <p className="text-slate-100 mt-2 flex items-center">
                                         <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500 me-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="text-emerald-300" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check preview-icon"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m16 9-5.5 5.5L8 12"/></svg>
                                         </span>
-                                        <span className="text-xl">Ensure proper spacing  and good air curculation</span>
-                              </p>
-                              
-                              <p className="text-slate-100 mt-2 flex items-center">
-                                        <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500 me-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="text-emerald-300" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check preview-icon"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m16 9-5.5 5.5L8 12"/></svg>
-                                        </span>
-                                        <span className="text-xl">Avoid overhead irrigation</span>
+                                        <span className="">Avoid overhead irrigation</span>
                               </p>
                           </div>
                        </>
