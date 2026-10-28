@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const Disease = () => {
+    const [MenuToOpen, setMenuToOpen] = useState(1);
+    
     return (
         <div className="relative w-full min-h-screen bg-[#06131F] overflow-hidden">
             <div className="mt-12 mx-auto w-full max-w-7xl">
