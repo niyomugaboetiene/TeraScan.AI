@@ -122,6 +122,29 @@ const Disease = () => {
                                     </div>
                                  </div>
                           </div>
+
+                          <div className="mt-3">
+                              <h1>Prevention Tips</h1>
+                              <p className="text-slate-100 mt-2 flex items-center">
+                                        <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-400 me-2">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="text-white"
+                                            width="14"
+                                            height="14"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="3"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        >
+                                            <path d="M20 6 9 17l-5-5" />
+                                        </svg>
+                                        </span>
+                                        <span>Leaf drop in severe cases</span>
+                                    </p>
+                          </div>
                        </>
                     )}
             </div>
