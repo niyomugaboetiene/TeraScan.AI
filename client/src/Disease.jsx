@@ -9,3 +9,5 @@ const Disease = () => {
         </div>
     )
 }
+
+export default Disease
