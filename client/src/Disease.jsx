@@ -17,7 +17,9 @@ const Disease = () => {
                     </div>
 
                     {MenuToOpen === 1 && (
-                        
+                          <div>
+                                 
+                          </div>
                     )}
             </div>
         </div>
