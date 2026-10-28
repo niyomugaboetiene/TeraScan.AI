@@ -126,7 +126,7 @@ const Disease = () => {
                           <div className="mt-3">
                               <h1>Prevention Tips</h1>
                               <p className="text-slate-100 mt-2 flex items-center">
-                                        <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-400 me-2">
+                                        <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-400 me-2">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="text-white"
