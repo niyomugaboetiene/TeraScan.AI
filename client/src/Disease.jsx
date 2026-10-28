@@ -4,7 +4,10 @@ const Disease = () => {
     return (
         <div className="relative w-full min-h-screen bg-[#06131F] overflow-hidden">
             <div>
-
+                 <div>
+                    <h1>Potato Diseases</h1>
+                    <p>Learn about common potato disease and how to manage them.</p>
+                 </div>
             </div>
         </div>
     )
