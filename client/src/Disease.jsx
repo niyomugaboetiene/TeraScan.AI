@@ -36,9 +36,9 @@ const Disease = () => {
                                   <div className="mt-12">
                                        <h1 className="text-slate-100 font-bold text-3xl">Key Symptoms</h1>
                                        <p><span></span> <span>Brown spots with concentric rings</span></p>
-                                       <p><span></span> <span>Brown spots with concentric rings</span></p>
-                                       <p><span></span> <span>Brown spots with concentric rings</span></p>
-                                       <p><span></span> <span>Brown spots with concentric rings</span></p>
+                                       <p><span></span> <span>Yellowing of older leaves</span></p>
+                                       <p><span></span> <span>Leaf drops in severe cases</span></p>
+                                       <p><span></span> <span>Dark lessions on stems (sometimes)</span></p>
                                  </div>
                                  </div>
 
