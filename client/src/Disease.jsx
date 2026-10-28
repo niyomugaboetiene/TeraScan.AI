@@ -33,22 +33,94 @@ const Disease = () => {
                                       conditions and can cause significant yield loss if not <br /> managed ealiry
                                     </p>
 
-                                  <div className="mt-12">
-                                       <h1 className="text-slate-100 font-bold text-2xl mb-4">Key Symptoms</h1>
-                                       <p className="text-slate-100 ">
-                                         <span className="py-0.5 px-0.5 inline-block h-5 w-5 rounded-full bg-emerald-400 me-1 mb-1">
-                                              <svg xmlns="http://www.w3.org/2000/svg" className="text-white" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg>
-                                        </span> <span>Brown spots with concentric rings</span></p>
-                                       <p className="text-slate-100 mt-2"><span className="py-0.5 px-0.5  inline-block h-5 w-5 rounded-full bg-emerald-400 me-1 mb-1">
-                                             <svg xmlns="http://www.w3.org/2000/svg" className="text-white" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg>
-                                        </span> <span>Yellowing of older leaves</span></p>
-                                       <p className="text-slate-100 mt-2"><span className="py-0.5 px-0.5  inline-block h-5 w-5 rounded-full bg-emerald-400 me-1 mb-1">
-                                              <svg xmlns="http://www.w3.org/2000/svg" className="text-white" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg>
-                                        </span> <span>Leaf drops in severe cases</span></p>
-                                       <p className="text-slate-100 mt-2"><span className="py-0.5 px-0.5 inline-block h-5 w-5 rounded-full bg-emerald-400 me-1 mb-1">
-                                              <svg xmlns="http://www.w3.org/2000/svg" className="text-white" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg>
-                                        </span> <span>Dark lessions on stems (sometimes)</span></p>
-                                 </div>
+
+                                    <div className="mt-12">
+                                    <h1 className="text-slate-100 font-bold text-2xl mb-4">
+                                        Key Symptoms
+                                    </h1>
+
+                                    <p className="text-slate-100 flex items-center">
+                                        <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-400 me-2">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="text-white"
+                                            width="14"
+                                            height="14"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="3"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        >
+                                            <path d="M20 6 9 17l-5-5" />
+                                        </svg>
+                                        </span>
+                                        <span>Brown spots with concentric rings</span>
+                                    </p>
+
+                                    <p className="text-slate-100 mt-2 flex items-center">
+                                        <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-400 me-2">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="text-white"
+                                            width="14"
+                                            height="14"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="3"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        >
+                                            <path d="M20 6 9 17l-5-5" />
+                                        </svg>
+                                        </span>
+                                        <span>Yellowing of older leaves</span>
+                                    </p>
+
+                                    <p className="text-slate-100 mt-2 flex items-center">
+                                        <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-400 me-2">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="text-white"
+                                            width="14"
+                                            height="14"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="3"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        >
+                                            <path d="M20 6 9 17l-5-5" />
+                                        </svg>
+                                        </span>
+                                        <span>Leaf drop in severe cases</span>
+                                    </p>
+
+                                    <p className="text-slate-100 mt-2 flex items-center">
+                                        <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-400 me-2">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="text-white"
+                                            width="14"
+                                            height="14"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="3"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        >
+                                            <path d="M20 6 9 17l-5-5" />
+                                        </svg>
+                                        </span>
+                                        <span>Dark lesions on stems (sometimes)</span>
+                                    </p>
+                                    </div>
+
+
                                  </div>
 
                           </div>
