@@ -28,9 +28,9 @@ const Disease = () => {
                                     <h1 className="text-4xl text-slate-100 font-bold">Ealiry Bright</h1>
                                     <p className="mt-2 text-slate-100 text-2xl">(Alternaria Solani)</p>
 
-                                    <p>Ealiry Bright is a fungal disease that affects potato leaves <br />
-                                       slams and tubers. it is more common in warm and hurrid conditions <br />
-                                       and can cause significant yield loss if not managed ealiry
+                                    <p className="text-slate-100 text-2xl mt-12">Ealiry Bright is a fungal disease that affects potato leaves <br />
+                                       slams and tubers. it is more common in warm and hurrid <br />
+                                      conditions and can cause significant yield loss if not <br /> managed ealiry
                                     </p>
                                  </div>
                           </div>
