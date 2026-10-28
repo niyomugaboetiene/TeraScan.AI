@@ -33,6 +33,9 @@ const Disease = () => {
                                       conditions and can cause significant yield loss if not <br /> managed ealiry
                                     </p>
                                  </div>
+                                 <div>
+                                    <h1>Key Symptoms</h1>
+                                 </div>
                           </div>
                     )}
             </div>
