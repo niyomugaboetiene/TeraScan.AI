@@ -17,7 +17,7 @@ const Disease = () => {
                     </div>
 
                     {MenuToOpen === 1 && (
-                          <div>
+                          <div className="flex space-x-12">
                                  
                           </div>
                     )}
