@@ -1,3 +1,4 @@
+import Disease from "./Disease";
 import Home from "./Home";
 import HowItWorks from "./HowItWorks";
 import Prediction from "./Prediction";
@@ -13,6 +14,9 @@ const Entry = () => {
            </section>
            <section id="prediction">
                <Prediction />
+           </section>
+           <section id="disease">
+               <Disease />
            </section>
         </>
     )
