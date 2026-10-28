@@ -20,9 +20,9 @@ const Disease = () => {
                     </div>
 
                     {MenuToOpen === 1 && (
-                          <div className="flex space-x-12 w-210">
-                                 <div className="w-120 h-120">
-                                    <img src={Earily} alt="Earily Bright" />
+                          <div className="mt-12 flex space-x-12 w-210">
+                                 <div className="">
+                                    <img src={Earily} alt="Earily Bright" className="w-90 h-120 rounded-3xl object-cover"/>
                                  </div>
                                  <div>
                                     <h1>Ealiry Bright</h1>
