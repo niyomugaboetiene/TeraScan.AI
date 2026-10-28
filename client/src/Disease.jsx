@@ -20,6 +20,7 @@ const Disease = () => {
                     </div>
 
                     {MenuToOpen === 1 && (
+                        <>
                           <div className="mt-12 flex space-x-12 ">
                                  <div>
                                     <img src={Earily} alt="Earily Bright" className="w-90 h-130 rounded-3xl object-cover"/>
@@ -119,11 +120,9 @@ const Disease = () => {
                                         <span>Dark lesions on stems (sometimes)</span>
                                     </p>
                                     </div>
-
-
                                  </div>
-
                           </div>
+                       </>
                     )}
             </div>
         </div>
