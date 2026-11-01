@@ -153,6 +153,9 @@ const Disease = () => {
                                         <span className="">Avoid overhead irrigation</span>
                               </p>
                           </div>
+                          <div className="bg-emerald-100/10 backdrop-blur-md px-4 py-1 mt-14 w-fit flex rounded-xl border border-emerald-200/30">
+                      
+                          </div> 
                        </>
                     )}
             </div>
