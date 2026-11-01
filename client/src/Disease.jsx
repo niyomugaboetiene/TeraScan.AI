@@ -55,7 +55,7 @@ const Disease = () => {
                                     viewport={{ once: false, amount: 0.3 }}
                                     transition={{ duration: 2, ease: "easeInOut"}}
                                  >
-                                    <h1 className="text-3xl text-slate-100 font-bold">Ealiry Bright</h1>
+                                    <h1 className="text-3xl text-slate-100 font-bold">Late Bright</h1>
                                     <p className="mt-2 text-slate-100 text-xl">(Alternaria Solani)</p>
 
                                     <p className="text-slate-100 mt-12">Ealiry Bright is a fungal disease that affects potato leaves <br />
