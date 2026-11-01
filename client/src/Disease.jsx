@@ -26,7 +26,7 @@ const Disease = () => {
                         transition={{ duration: 2, ease: "easeInOut"}}                    
                        className="mt-2 text-slate-100 text-2xl">Learn about common potato disease and how to manage them.</motion.p>
 
-                    <div 
+                    <motion.div 
                     className="flex space-x-12 mt-10"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -36,15 +36,25 @@ const Disease = () => {
                         <button className={`${MenuToOpen === 1 ? "bg-emerald-500" : ""} text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Earily Bright</button>
                         <button className={`${MenuToOpen === 2 ? "bg-emerald-500" : ""} text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Late Bright</button>
                         <button className={`${MenuToOpen === 3 ? "bg-emerald-500" : ""} text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Healthy</button>
-                    </div>
+                    </motion.div>
 
                     {MenuToOpen === 1 && (
                         <>
                           <div className="mt-12 flex space-x-12 ">
-                                 <div>
+                                 <motion.div
+                                    initial={{ opacity: 0, x: 30 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: false, amount: 0.3 }}
+                                    transition={{ duration: 2, ease: "easeInOut"}}
+                                 >
                                     <img src={Earily} alt="Earily Bright" className="w-90 h-130 rounded-3xl object-cover"/>
-                                 </div>
-                                 <div>
+                                 </motion.div>
+                                 <div 
+                                    initial={{ opacity: 0, x: 30 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: false, amount: 0.3 }}
+                                    transition={{ duration: 2, ease: "easeInOut"}}
+                                 >
                                     <h1 className="text-3xl text-slate-100 font-bold">Ealiry Bright</h1>
                                     <p className="mt-2 text-slate-100 text-xl">(Alternaria Solani)</p>
 
