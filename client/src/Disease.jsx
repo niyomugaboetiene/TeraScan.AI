@@ -152,7 +152,7 @@ const Disease = () => {
                                  </motion.div>
                           </div>
 
-                          <div className="mt-12 ">
+                          <motion.div className="mt-12 ">
                               <h1 className="text-3xl text-slate-100 font-bold mb-6">Prevention Tips</h1>
                               <p className="text-slate-100 mt-2 flex items-center">
                                         <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500 me-2">
