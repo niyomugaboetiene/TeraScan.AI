@@ -13,20 +13,26 @@ const Disease = () => {
               className="mt-12 mx-auto w-full max-w-7xl"
             >
                     <motion.h1
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 0, y: -30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: false, amount: 0.3 }}
                         transition={{ duration: 2, ease: "easeInOut"}}
                         className="text-slate-100 text-4xl font-bold"
                         >Potato Diseases</motion.h1>
                     <motion.p 
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 0, y: -30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: false, amount: 0.3 }}
                         transition={{ duration: 2, ease: "easeInOut"}}                    
                        className="mt-2 text-slate-100 text-2xl">Learn about common potato disease and how to manage them.</motion.p>
 
-                    <div className="flex space-x-12 mt-10">
+                    <div 
+                    className="flex space-x-12 mt-10"
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: false, amount: 0.3 }}
+                        transition={{ duration: 2, ease: "easeInOut"}}
+                    >
                         <button className={`${MenuToOpen === 1 ? "bg-emerald-500" : ""} text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Earily Bright</button>
                         <button className={`${MenuToOpen === 2 ? "bg-emerald-500" : ""} text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Late Bright</button>
                         <button className={`${MenuToOpen === 3 ? "bg-emerald-500" : ""} text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Healthy</button>
