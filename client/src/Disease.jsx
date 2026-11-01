@@ -38,7 +38,7 @@ const Disease = () => {
                         <button onClick={() => setMenuToOpen(3)} className={`${MenuToOpen === 3 ? "bg-emerald-500" : ""} text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg cursor-pointer rounded-lg transition-colors`}>Healthy</button>
                     </motion.div>
 
-                    {MenuToOpen === 1 && (
+                    {MenuToOpen === 2 && (
                         <>
                           <div className="mt-12 flex space-x-12 ">
                                  <motion.div
@@ -204,7 +204,7 @@ const Disease = () => {
                        </>
                     )}
 
-                    {MenuToOpen === 2 && (
+                    {MenuToOpen === 1 && (
                         <>
                           <div className="mt-12 flex space-x-12 ">
                                  <motion.div
