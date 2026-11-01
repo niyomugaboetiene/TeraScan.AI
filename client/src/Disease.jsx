@@ -56,10 +56,10 @@ const Disease = () => {
                                     transition={{ duration: 2, ease: "easeInOut"}}
                                  >
                                     <h1 className="text-3xl text-slate-100 font-bold">Late Bright</h1>
-                                    <p className="mt-2 text-slate-100 text-xl">(Alternaria Solani)</p>
+                                    <p className="mt-2 text-slate-100 text-xl">(Phytophthora infestand)</p>
 
-                                    <p className="text-slate-100 mt-12">Ealiry Bright is a fungal disease that affects potato leaves <br />
-                                       slams and tubers. it is more common in warm and hurrid <br />
+                                    <p className="text-slate-100 mt-12">Late Blight is a destructive disease that affects potato leaves, stems, and tubers.<br />
+                                       It causes large, irregular, dark brown or black lesions on leaves, often surrounded by pale green or yellow areas.<br />
                                       conditions and can cause significant yield loss if not <br /> managed ealiry
                                     </p>
 
