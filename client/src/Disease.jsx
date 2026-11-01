@@ -11,10 +11,20 @@ const Disease = () => {
         <div className="relative w-full min-h-screen bg-[#06131F] overflow-hidden">
             <motion.div
               className="mt-12 mx-auto w-full max-w-7xl"
-
             >
-                    <h1 className="text-slate-100 text-4xl font-bold">Potato Diseases</h1>
-                    <p className="mt-2 text-slate-100 text-2xl">Learn about common potato disease and how to manage them.</p>
+                    <motion.h1
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: false, amount: 0.3 }}
+                        transition={{ duration: 2, ease: "easeInOut"}}
+                        className="text-slate-100 text-4xl font-bold"
+                        >Potato Diseases</motion.h1>
+                    <motion.p 
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: false, amount: 0.3 }}
+                        transition={{ duration: 2, ease: "easeInOut"}}                    
+                       className="mt-2 text-slate-100 text-2xl">Learn about common potato disease and how to manage them.</motion.p>
 
                     <div className="flex space-x-12 mt-10">
                         <button className={`${MenuToOpen === 1 ? "bg-emerald-500" : ""} text-white font-bold py-3 px-24 bg-[#06131F] border-2 border-slate-800 text-lg rounded-lg transition-colors`}>Earily Bright</button>
