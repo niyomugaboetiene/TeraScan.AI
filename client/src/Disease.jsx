@@ -153,9 +153,9 @@ const Disease = () => {
                                         <span className="">Avoid overhead irrigation</span>
                               </p>
                           </div>
-                          <div className="bg-emerald-100/10 backdrop-blur-md p-12 mt-14 w-fit flex rounded-xl border border-emerald-200/30">
-                                <div className="text-slate-100 bg-emerald-400/10">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-clock preview-icon"><path d="M16 14v2.2l1.6 1"/><path d="M16 4h2a2 2 0 0 1 2 2v.832"/><path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h2"/><circle cx="16" cy="16" r="6"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg>
+                          <div className="bg-emerald-100/10 backdrop-blur-md p-12 mt-14 w-fit flex space-x-6 rounded-xl border border-emerald-200/30">
+                                <div className="text-slate-100 bg-emerald-500/30 backdrop-blur-md p-3 rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-clock preview-icon"><path d="M16 14v2.2l1.6 1"/><path d="M16 4h2a2 2 0 0 1 2 2v.832"/><path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h2"/><circle cx="16" cy="16" r="6"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg>
                                 </div>
                                 <div>
                                     <h1>Remember: </h1>
