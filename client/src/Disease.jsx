@@ -59,8 +59,8 @@ const Disease = () => {
                                     <p className="mt-2 text-slate-100 text-xl">(Phytophthora infestand)</p>
 
                                     <p className="text-slate-100 mt-12">Late Blight is disease that affects potato leaves, stems, and tubers.<br />
-                                       It causes large, irregular, dark brown or black lesions on leaves, often surrounded by pale green or yellow areas.<br />
-                                      conditions and can cause significant yield loss if not <br /> managed ealiry
+                                       It causes large, irregular, dark brown or black lesions on leaves, <br /> often surrounded by pale green or yellow areas.
+                                      conditions and<br /> can cause significant yield loss if not managed ealiry
                                     </p>
 
 
