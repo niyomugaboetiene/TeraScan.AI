@@ -390,8 +390,8 @@ const Disease = () => {
                                     <h1 className="text-3xl text-slate-100 font-bold">Healthy</h1>
                                     <p className="mt-2 text-slate-100 text-xl">(No Disease)</p>
 
-                                    <p className="text-slate-100 mt-12">Ealiry Bright is a fungal disease that affects potato leaves <br />
-                                       slams and tubers. it is more common in warm and hurrid <br />
+                                    <p className="text-slate-100 mt-12"> A healthy potato plant has green leaves, strong stems, and well-developed roots <br />
+                                       It grows normally without visible signs of disease or pest damage. <br />
                                       conditions and can cause significant yield loss if not <br /> managed ealiry
                                     </p>
                                  </motion.div>
