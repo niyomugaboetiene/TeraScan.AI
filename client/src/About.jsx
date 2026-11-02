@@ -10,7 +10,7 @@ const About = () => {
                        <div className="absolute mt-52">
                             <h1 className="text-5xl font-bold text-slate-100">About TeraScan AI</h1>
                             <h1 className="mt-8 text-2xl text-slate-100 font-bold">Smart technology for healthier potato crops.</h1>
-                            <p>TeraScan AI is an AI-powered web application designed to help <br />
+                            <p className="mt-8 text-2xl text-slate-100">TeraScan AI is an AI-powered web application designed to help <br />
                             farmers detect potato disease early. Our mission is to use <br />
                             technology to improve crop health, increase productivity, <br />
                             and support sustainable agricultural in Rwanda and beyond
