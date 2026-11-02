@@ -18,7 +18,7 @@ const About = () => {
                              <button>Our Mission</button>
                        </div>
                     </div>
-                    <div className="ms-80">
+                    <div className="ms-92">
                         <img src={SampleBg} alt="Bg" />
                     </div>
                 </div>
