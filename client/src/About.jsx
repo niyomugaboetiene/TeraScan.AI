@@ -8,7 +8,7 @@ const About = () => {
                 <div className="flex space-x-3">
                     <div>
                        <div className="absolute">
-                            <h1 className="text-3xl text-slate-100">About TeraScan AI</h1>
+                            <h1 className="text-5xl font-bold text-slate-100">About TeraScan AI</h1>
                             <h1>Smart technology for healthier potato crops.</h1>
                             <p>TeraScan AI is an AI-powered web application designed to help <br />
                             farmers detect potato disease early. Our mission is to use <br />
