@@ -86,7 +86,7 @@ const Disease = () => {
                                             <path d="M20 6 9 17l-5-5" />
                                         </svg>
                                         </span>
-                                        <span>Brown spots with concentric rings</span>
+                                        <span>Irregular dark brown or black spots on leaves</span>
                                     </p>
 
                                     <p className="text-slate-100 mt-2 flex items-center">
@@ -106,7 +106,7 @@ const Disease = () => {
                                             <path d="M20 6 9 17l-5-5" />
                                         </svg>
                                         </span>
-                                        <span>Yellowing of older leaves</span>
+                                        <span>White mold-like growth on leaf undersides</span>
                                     </p>
 
                                     <p className="text-slate-100 mt-2 flex items-center">
@@ -126,7 +126,7 @@ const Disease = () => {
                                             <path d="M20 6 9 17l-5-5" />
                                         </svg>
                                         </span>
-                                        <span>Leaf drop in severe cases</span>
+                                        <span>Yellowing, wilting, and dying leaves</span>
                                     </p>
 
                                     <p className="text-slate-100 mt-2 flex items-center">
@@ -146,7 +146,7 @@ const Disease = () => {
                                             <path d="M20 6 9 17l-5-5" />
                                         </svg>
                                         </span>
-                                        <span>Dark lesions on stems (sometimes)</span>
+                                        <span>Dark lesions on stems and reddish-brown rot in tubers</span>
                                     </p>
                                     </div>
                                  </motion.div>
