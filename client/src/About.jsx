@@ -10,6 +10,8 @@ const About = () => {
                     <h1>Smart technology for healthier potato crops.</h1>
                     <p>TeraScan AI is an AI-powered web application designed to help <br />
                        farmers detect potato disease early. Our mission is to use <br />
+                       technology to improve crop health, increase productivity. <br />
+                       and support
                     </p>
                 </div>
                 <div>
