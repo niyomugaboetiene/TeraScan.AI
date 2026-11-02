@@ -198,7 +198,7 @@ const Disease = () => {
                                 </div>
                                 <div>
                                     <h1 className="text-2xl text-slate-100 font-bold">Remember: </h1>
-                                    <p className="mt-3 x` text-slate-100">Always concult local agricultural export for the best treatment options in your area.</p>
+                                    <p className="mt-3 x` text-slate-100">Early detection and proper field management can help protect your potato crops from Late Blight.</p>
                                 </div>
                           </motion.div> 
                        </>
