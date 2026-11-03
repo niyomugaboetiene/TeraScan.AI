@@ -127,7 +127,7 @@ const About = () => {
                 </div>
                  <hr className="mt-12 h-0.5 border-0 bg-slate-600" />
                     <div className="mt-16">
-                            <h1 className="text-slate-100 text-3xl md:text-4xl font-bold text-center md:text-left">
+                            <h1 className="text-slate-100 text-3xl font-bold text-center md:text-left">
                                 Technology Used
                             </h1>
 
