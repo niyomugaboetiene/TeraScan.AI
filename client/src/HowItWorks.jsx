@@ -58,12 +58,10 @@ export default function HowItWorks() {
               </div>
             </div>
 
-            {/* Arrow 1 */}
             <div className="hidden md:flex items-center justify-center">
               <FiArrowRight className="text-4xl text-slate-400" />
             </div>
 
-            {/* Step 2 */}
             <div className="flex flex-col items-center text-center">
               <div className="bg-green-600 rounded-full flex items-center justify-center p-10 text-slate-100">
                 <svg
@@ -98,12 +96,10 @@ export default function HowItWorks() {
               </div>
             </div>
 
-            {/* Arrow 2 */}
             <div className="hidden md:flex items-center justify-center">
               <FiArrowRight className="text-4xl text-slate-400" />
             </div>
 
-            {/* Step 3 */}
             <div className="flex flex-col items-center text-center">
               <div className="bg-green-600 rounded-full flex items-center justify-center p-10 text-slate-100">
                 <svg
@@ -131,8 +127,6 @@ export default function HowItWorks() {
               </div>
             </div>
           </motion.div>
-
-
             <motion.div 
                className='mt-10'
                initial={{ opacity: 0, y: 30 }}
