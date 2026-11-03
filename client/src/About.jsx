@@ -34,7 +34,7 @@ const About = () => {
                           potato leaf images and detect disease with high accuracy</p>
                     </div>
                      <motion.div 
-                        // className='mt-5 mx-auto max-w-4xl flex justify-between'
+                        className='mt-6 flex justify-between'
                         // initial={{ opacity: 0, y: 20 }}
                         // whileInView={{ opacity: 1, y: 0 }}
                         // viewport={{ once: false, amount: 0.3}}
