@@ -25,6 +25,11 @@ const About = () => {
                         <img src={SampleBg} alt="Bg" />
                     </div>
                 </div>
+
+                <div>
+                    <h1>How It Works</h1>
+                    <p></p>
+                </div>
              </div>
         </div>
     )
