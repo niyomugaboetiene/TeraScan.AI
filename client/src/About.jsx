@@ -34,7 +34,7 @@ const About = () => {
                           potato leaf images and detect disease with high accuracy</p>
                     </div>
                       <motion.div
-                                 className="mt-5 mx-auto max-w-4xl flex flex-col md:flex-row items-center justify-between gap-8 md:gap-4"
+                                 className="mt-5 flex flex-col md:flex-row items-center justify-between gap-8 md:gap-4"
                                 //  initial={{ opacity: 0, y: 20 }}
                                 //  whileInView={{ opacity: 1, y: 0 }}
                                 //  viewport={{ once: false, amount: 0.3 }}
@@ -69,12 +69,10 @@ const About = () => {
                                    </div>
                                  </div>
                      
-                                 {/* Arrow 1 */}
                                  <div className="hidden md:flex items-center justify-center">
                                    <FiArrowRight className="text-4xl text-slate-400" />
                                  </div>
                      
-                                 {/* Step 2 */}
                                  <div className="flex flex-col items-center text-center">
                                    <div className="bg-green-600 rounded-full flex items-center justify-center p-10 text-slate-100">
                                      <svg
@@ -109,12 +107,68 @@ const About = () => {
                                    </div>
                                  </div>
                      
-                                 {/* Arrow 2 */}
                                  <div className="hidden md:flex items-center justify-center">
                                    <FiArrowRight className="text-4xl text-slate-400" />
                                  </div>
                      
-                                 {/* Step 3 */}
+                                 <div className="flex flex-col items-center text-center">
+                                   <div className="bg-green-600 rounded-full flex items-center justify-center p-10 text-slate-100">
+                                     <svg
+                                       xmlns="http://www.w3.org/2000/svg"
+                                       width="40"
+                                       height="40"
+                                       viewBox="0 0 24 24"
+                                       fill="none"
+                                       stroke="currentColor"
+                                       strokeWidth="3"
+                                       strokeLinecap="round"
+                                       strokeLinejoin="round"
+                                     >
+                                       <path d="M20 6 9 17l-5-5" />
+                                     </svg>
+                                   </div>
+                     
+                                   <div className="text-slate-800 mt-3">
+                                     <h1 className="font-bold text-xl">3. Get Result</h1>
+                                     <p className="text-slate-400 mt-3">
+                                       See the disease name
+                                       <br />
+                                       Confidence score and advice
+                                     </p>
+                                   </div>
+                                 </div> <div className="hidden md:flex items-center justify-center">
+                                   <FiArrowRight className="text-4xl text-slate-400" />
+                                 </div>
+                     
+                                 <div className="flex flex-col items-center text-center">
+                                   <div className="bg-green-600 rounded-full flex items-center justify-center p-10 text-slate-100">
+                                     <svg
+                                       xmlns="http://www.w3.org/2000/svg"
+                                       width="40"
+                                       height="40"
+                                       viewBox="0 0 24 24"
+                                       fill="none"
+                                       stroke="currentColor"
+                                       strokeWidth="3"
+                                       strokeLinecap="round"
+                                       strokeLinejoin="round"
+                                     >
+                                       <path d="M20 6 9 17l-5-5" />
+                                     </svg>
+                                   </div>
+                     
+                                   <div className="text-slate-800 mt-3">
+                                     <h1 className="font-bold text-xl">3. Get Result</h1>
+                                     <p className="text-slate-400 mt-3">
+                                       See the disease name
+                                       <br />
+                                       Confidence score and advice
+                                     </p>
+                                   </div>
+                                 </div> <div className="hidden md:flex items-center justify-center">
+                                   <FiArrowRight className="text-4xl text-slate-400" />
+                                 </div>
+                     
                                  <div className="flex flex-col items-center text-center">
                                    <div className="bg-green-600 rounded-full flex items-center justify-center p-10 text-slate-100">
                                      <svg
@@ -141,7 +195,7 @@ const About = () => {
                                      </p>
                                    </div>
                                  </div>
-                         </motion.div>
+                     </motion.div>
                 </div>
              </div>
         </div>
