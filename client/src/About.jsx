@@ -41,7 +41,7 @@ const About = () => {
                                 //  transition={{ duration: 1, ease: "easeInOut" }}
                                >
                                  <div className="flex flex-col items-center text-center">
-                                   <div className="bg-green-600 rounded-full flex items-center justify-center p-10 text-slate-100">
+                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-10 text-emerald-300">
                                      <svg
                                        xmlns="http://www.w3.org/2000/svg"
                                        width="40"
