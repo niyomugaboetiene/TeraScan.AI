@@ -131,7 +131,31 @@ const About = () => {
                         <div className="flex justify-between mt-4">
                              <div>
                                 <div className="bg-[#20232A] p-7 rounded-full">
-                                    <FaReact className="text-[#61DAFB] text-6xl"/>
+                                    <FaReact className="text-[#61DAFB] text-5xl"/>
+                                </div>
+                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">React</p>
+                                <p className="text-slate-100 ms-4 mt-2 text-xl">Frontend</p>
+                             </div>
+                             
+                             <div>
+                                <div className="bg-[#20232A] p-7 rounded-full">
+                                    <FaReact className="text-[#61DAFB] text-5xl"/>
+                                </div>
+                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">React</p>
+                                <p className="text-slate-100 ms-4 mt-2 text-xl">Frontend</p>
+                             </div>
+                             
+                             <div>
+                                <div className="bg-[#20232A] p-7 rounded-full">
+                                    <FaReact className="text-[#61DAFB] text-5xl"/>
+                                </div>
+                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">React</p>
+                                <p className="text-slate-100 ms-4 mt-2 text-xl">Frontend</p>
+                             </div>
+                             
+                             <div>
+                                <div className="bg-[#20232A] p-7 rounded-full">
+                                    <FaReact className="text-[#61DAFB] text-5xl"/>
                                 </div>
                                 <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">React</p>
                                 <p className="text-slate-100 ms-4 mt-2 text-xl">Frontend</p>
