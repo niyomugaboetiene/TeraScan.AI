@@ -113,26 +113,7 @@ const About = () => {
                      
                                  <div className="flex flex-col items-center text-center">
                                    <div className="bg-emerald-500 rounded-full flex items-center justify-center p-7 text-emerald-300">
-                                     <svg
-                                       xmlns="http://www.w3.org/2000/svg"
-                                       width="40"
-                                       height="40"
-                                       viewBox="0 0 24 24"
-                                       fill="none"
-                                       stroke="currentColor"
-                                       strokeWidth="3"
-                                       strokeLinecap="round"
-                                       strokeLinejoin="round"
-                                     >
-                                       <path d="M12 18V5" />
-                                       <path d="M15 13a4.17 4.17 0 01-3-4 4.17 4.17 0 01-3 4" />
-                                       <path d="M17.707 6.294A3 3 0 1012 5a3 3 0 10-5.707 1.294" />
-                                       <path d="M17.996 5.125a4 4 0 012.526 5.77" />
-                                       <path d="M18 18a4 4 0 002-7.465" />
-                                       <path d="M19.967 17.482a4 4 0 11-7.967.517 4 4 0 11-7.967-.517" />
-                                       <path d="M6 18a4 4 0 01-2-7.465" />
-                                       <path d="M6.004 5.125a4 4 0 00-2.526 5.77" />
-                                     </svg>
+                                           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain-cog preview-icon"><path d="m10.852 14.772-.383.923"/><path d="m10.852 9.228-.383-.923"/><path d="m13.148 14.772.382.924"/><path d="m13.53 8.305-.382.923"/><path d="m14.772 10.852.923-.383"/><path d="m14.772 13.148.923.383"/><path d="M17.997 5.125a4 4 0 012.526 5.77"/><path d="M18 18a4 4 0 002-7.464"/><path d="M4.033 17.483A4 4 0 0011.46 20c.184-.31.896-.31 1.076 0a4 4 0 007.43-2.517"/><path d="M6 18a4 4 0 01-2-7.464"/><path d="M6.002 5.125a4 4 0 00-2.525 5.77"/><path d="M6.293 6.294a3 3 0 01-.287-1.098l-.004-.07a3 3 0 015.968-.543c.05.02.057.01.059 0a3 3 0 015.968.542l-.004.071a3 3 0 01-.287 1.098"/><path d="m9.228 10.852-.923-.383"/><path d="m9.228 13.148-.923.383"/><circle cx="12" cy="12" r="3"/></svg>
                                    </div>
                      
                                    <div className="text-slate-800 mt-3">
@@ -149,7 +130,7 @@ const About = () => {
                      
                                  <div className="flex flex-col items-center text-center">
                                    <div className="bg-emerald-500 rounded-full flex items-center justify-center p-7 text-emerald-300">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check preview-icon"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check preview-icon"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg>
                                    </div>
                      
                                    <div className="text-slate-800 mt-3">
