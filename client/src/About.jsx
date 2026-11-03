@@ -69,7 +69,7 @@ const About = () => {
                                    </div>
                                  </div>
                      
-                                 <div className="hidden md:flex items-center justify-center">
+                                 <div className="hidden md:flex items-center justify-center mb-16">
                                    <FiArrowRight className="text-4xl text-slate-400" />
                                  </div>
                      
@@ -88,7 +88,7 @@ const About = () => {
                                    </div>
                                  </div>
                      
-                                 <div className="hidden md:flex items-center justify-center">
+                                 <div className="hidden md:flex items-center justify-center mb-16">
                                    <FiArrowRight className="text-4xl text-slate-400" />
                                  </div>
                      
@@ -105,7 +105,7 @@ const About = () => {
                                        Confidence score and advice
                                      </p>
                                    </div>
-                                 </div> <div className="hidden md:flex items-center justify-center">
+                                 </div> <div className="hidden md:flex items-center justify-center mb-16">
                                    <FiArrowRight className="text-4xl text-slate-400" />
                                  </div>
                      
