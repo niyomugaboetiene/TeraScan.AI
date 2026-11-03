@@ -96,11 +96,11 @@ const About = () => {
                                    </div>
                      
                                    <div className="text-slate-800 mt-3">
-                                     <h1 className="font-bold text-xl">3. Get Result</h1>
+                                     <h1 className="font-bold text-xl">AI Model</h1>
                                      <p className="text-slate-400 mt-3">
-                                       See the disease name
+                                       Analyze with
                                        <br />
-                                       Confidence score and advice
+                                       trained model
                                      </p>
                                    </div>
                                  </div> <div className="hidden md:flex items-center justify-center mb-16">
@@ -113,11 +113,11 @@ const About = () => {
                                    </div>
                      
                                    <div className="text-slate-800 mt-3">
-                                     <h1 className="font-bold text-xl">3. Get Result</h1>
+                                     <h1 className="font-bold text-xl">Result</h1>
                                      <p className="text-slate-400 mt-3">
-                                       See the disease name
+                                       Get disease name
                                        <br />
-                                       Confidence score and advice
+                                       and confidence
                                      </p>
                                    </div>
                                  </div> 
