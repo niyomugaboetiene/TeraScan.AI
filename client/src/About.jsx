@@ -10,37 +10,49 @@ const About = () => {
              <div className="w-full max-w-6xl mx-auto">
                 <div className="flex space-x-3">
                     <div>
-                       <div className="absolute mt-52">
+                       <motion.div 
+                          className="absolute mt-52"
+                          initial={{ opacity: 0, x: -100 }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false, amount: 0.3 }}
+                          transition={{ duration: 2, ease: "easeInOut" }}
+                       >
                             <h1 className="text-5xl font-bold text-slate-100">About TeraScan AI</h1>
                             <h1 className="mt-8 text-2xl text-slate-100 font-bold">Smart technology for healthier potato crops.</h1>
-                            <p className="mt-8 text-2xl text-slate-100">TeraScan AI is an AI-powered web application designed to help <br />
-                            farmers detect potato disease early. Our mission is to use <br />
-                            technology to improve crop health, increase productivity, <br />
-                            and support sustainable agricultural in Rwanda and beyond
+                            <p className="mt-8 text-2xl text-slate-100">TeraScan AI is an AI-powered web application developed by <br /> NIYOMUGABO Etiene designed to help 
+                            farmers detect potato  <br /> disease early. Our mission is to use 
+                            technology to improve crop <br /> health, increase productivity,
+                            and support sustainable  <br /> agricultural in Rwanda and beyond
                             </p>
                              <button className="bg-green-400 py-4 px-6 mt-8 rounded-lg text-slate-100 font-bold cursor-pointer hover:bg-green-500 transition-colors inline-flex">
                                 <span className="me-2">Get Started</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right preview-icon"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                             </button>
-                       </div>
+                       </motion.div>
                     </div>
-                    <div className="ms-92">
+                    <motion.div 
+                          initial={{ opacity: 0, x: 100 }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false, amount: 0.3 }}
+                          transition={{ duration: 2, ease: "easeInOut" }}
+                    className="ms-92">
                         <img src={SampleBg} alt="Bg" />
-                    </div>
+                    </motion.div>
                 </div>
 
-                <div className="mt-12">
+                <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: false, amount: 0.3 }}
+                      transition={{ duration: 1, ease: "easeInOut" }}
+                className="mt-12">
                      <div>
                           <h1 className="text-slate-100 text-4xl font-bold">How It Works</h1>
                           <p className="mt-6 text-slate-100 text-xl">We combine computer vision and deep learning to analyze <br />
                           potato leaf images and detect disease with high accuracy</p>
                     </div>
-                      <motion.div
+                      <div
                                  className="mt-12 flex flex-col md:flex-row items-center justify-between gap-8 md:gap-4"
-                                //  initial={{ opacity: 0, y: 20 }}
-                                //  whileInView={{ opacity: 1, y: 0 }}
-                                //  viewport={{ once: false, amount: 0.3 }}
-                                //  transition={{ duration: 1, ease: "easeInOut" }}
                                >
                                  <div className="flex flex-col items-center text-center">
                                    <div className="bg-emerald-500 rounded-full flex items-center justify-center p-7 text-emerald-300">
@@ -123,15 +135,27 @@ const About = () => {
                                      </p>
                                    </div>
                                  </div> 
-                     </motion.div>
-                </div>
-                 <hr className="mt-12 h-0.5 border-0 bg-slate-600" />
-                    <div className="mt-16">
+                     </div>
+                </motion.div>
+                 <motion.hr
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: false, amount: 0.3 }}
+                      transition={{ duration: 1, ease: "easeInOut" }}
+                      className="mt-12 h-0.5 border-0 bg-slate-600" />
+
+                    <motion.div 
+                         initial={{ opacity: 0, y: 20 }}
+                         whileInView={{ opacity: 1, y: 0 }}
+                         viewport={{ once: false, amount: 0.3 }}
+                         transition={{ duration: 1, ease: "easeInOut" }}
+                         className="mt-16 mb-12"
+                    >
                             <h1 className="text-slate-100 text-3xl font-bold text-center md:text-left">
                                 Technology Used
                             </h1>
 
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-56 mt-10">
 
                                 <div className="flex flex-col items-center text-center">
                                     <div className="bg-[#20232A] p-6 rounded-full shadow-lg transition-all duration-300 hover:scale-110">
@@ -182,7 +206,7 @@ const About = () => {
                                 </div>
 
                 </div>
-            </div>
+            </motion.div>
             </div>
         </div>
     )

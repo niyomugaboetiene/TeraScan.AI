@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-
+import { motion } from "framer-motion";
 const Prediction = () => {
   const [image, setImage] = useState(null);
   const [preview, setPreview] = useState("");
@@ -56,7 +56,12 @@ const Prediction = () => {
 
   return (
      <div className="relative w-full min-h-screen bg-[#06131F] overflow-hidden">
-          <div className="mx-auto w-full max-w-7xl">
+          <motion.div
+               initial={{ opacity: 0, y: 40 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: false, amount: 0.3 }}
+               transition={{ duration: 2, ease: "easeInOut"}}
+            className="mx-auto w-full max-w-7xl">
                <div className="mt-12">
                  <h1 className="text-center text-white font-bold text-6xl">Scan your Potato Leaf</h1>
                  <p className="text-center text-white mt-6 text-2xl">Upload  a clear image of a potato leaf to detect its diseases <br />using our AI model.</p>
@@ -152,7 +157,7 @@ const Prediction = () => {
               </div>
               </>
               )}
-          </div>
+          </motion.div>
      </div>
   );
 };

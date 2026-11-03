@@ -1,5 +1,6 @@
 import About from "./About";
 import Disease from "./Disease";
+import Footer from "./Footer";
 import Home from "./Home";
 import HowItWorks from "./HowItWorks";
 import Prediction from "./Prediction";
@@ -21,6 +22,9 @@ const Entry = () => {
            </section>
            <section id="about">
             <About />
+           </section>
+           <section id="footer">
+             <Footer />
            </section>
         </>
     )
