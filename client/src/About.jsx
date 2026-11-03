@@ -123,9 +123,12 @@ const About = () => {
                                  </div> 
                      </motion.div>
                 </div>
-                 <hr className="mt-12 h-1 border-0 bg-slate-500" />
-                 <div>
-                    
+                 <hr className="mt-12 h-0.5 border-0 bg-slate-600" />
+                 <div className="mt-12">
+                        <h1 className="text-slate-100 text-4xl font-bold">Technology Used</h1>
+                        <div>
+                            
+                        </div>
                  </div>
             </div>
         </div>
