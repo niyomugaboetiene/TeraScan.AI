@@ -139,26 +139,26 @@ const About = () => {
                              
                              <div>
                                 <div className="bg-[#FFFFFF] p-7 rounded-full">
-                                    <FaReact className="text-[#000000]text-5xl"/>
-                                </div>
-                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">React</p>
-                                <p className="text-slate-100 ms-4 mt-2 text-xl">Frontend</p>
-                             </div>
-                             
-                             <div>
-                                <div className="bg-[#FFF3E0] p-7 rounded-full">
-                                    <FaFlask className="text-[#FF6F00] text-5xl"/>
+                                    <FaFlask className="text-[#000000]text-5xl"/>
                                 </div>
                                 <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">Flask</p>
                                 <p className="text-slate-100 ms-4 mt-2 text-xl">Backend</p>
                              </div>
                              
                              <div>
-                                <div className="bg-[#E0F7FA] p-7 rounded-full">
-                                    <FaReact className="text-[#06B6D4] text-5xl"/>
+                                <div className="bg-[#FFF3E0] p-7 rounded-full">
+                                    <SiTensorflow className="text-[#FF6F00] text-5xl"/>
                                 </div>
-                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">React</p>
-                                <p className="text-slate-100 ms-4 mt-2 text-xl">Frontend</p>
+                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">Tensorflow/Keras</p>
+                                <p className="text-slate-100 ms-4 mt-2 text-xl">Deep Learning</p>
+                             </div>
+                             
+                             <div>
+                                <div className="bg-[#E0F7FA] p-7 rounded-full">
+                                    <SiTailwindcss className="text-[#06B6D4] text-5xl"/>
+                                </div>
+                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">Tailwindcss</p>
+                                <p className="text-slate-100 ms-4 mt-2 text-xl">Styling</p>
                              </div>
                         </div>
                  </div>
