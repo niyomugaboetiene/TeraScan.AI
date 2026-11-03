@@ -15,7 +15,10 @@ const About = () => {
                             technology to improve crop health, increase productivity, <br />
                             and support sustainable agricultural in Rwanda and beyond
                             </p>
-                             <button className="bg-green-400 py-3 px-6 mt-8 rounded-lg text-slate-100 font-bold">Our Mission</button>
+                             <button className="bg-green-400 py-3 px-6 mt-8 rounded-lg text-slate-100 font-bold cursor-pointer hover:bg-green-500 transition-colors inline-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right preview-icon"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                Get Started
+                            </button>
                        </div>
                     </div>
                     <div className="ms-92">
