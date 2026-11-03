@@ -126,42 +126,63 @@ const About = () => {
                      </motion.div>
                 </div>
                  <hr className="mt-12 h-0.5 border-0 bg-slate-600" />
-                 <div className="mt-12">
-                        <h1 className="text-slate-100 text-4xl font-bold">Technology Used</h1>
-                        <div className="flex justify-between mt-4">
-                             <div>
-                                <div className="bg-[#20232A] p-7 rounded-full">
-                                    <FaReact className="text-[#61DAFB] text-5xl"/>
+                    <div className="mt-16">
+                            <h1 className="text-slate-100 text-3xl md:text-4xl font-bold text-center md:text-left">
+                                Technology Used
+                            </h1>
+
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+
+                                <div className="flex flex-col items-center text-center">
+                                    <div className="bg-[#20232A] p-6 rounded-full shadow-lg transition-all duration-300 hover:scale-110">
+                                        <FaReact className="text-[#61DAFB] text-5xl" />
+                                    </div>
+                                    <p className="text-slate-100 mt-4 text-lg font-bold">
+                                        React
+                                    </p>
+                                    <p className="text-slate-400 mt-1 text-sm">
+                                        Frontend
+                                    </p>
                                 </div>
-                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">React</p>
-                                <p className="text-slate-100 ms-4 mt-2 text-xl">Frontend</p>
-                             </div>
-                             
-                             <div>
-                                <div className="bg-[#FFFFFF] p-7 rounded-full">
-                                    <FaFlask className="text-[#000000]text-5xl"/>
+
+                                <div className="flex flex-col items-center text-center">
+                                    <div className="bg-white p-6 rounded-full shadow-lg transition-all duration-300 hover:scale-110">
+                                        <FaFlask className="text-black text-5xl" />
+                                    </div>
+                                    <p className="text-slate-100 mt-4 text-lg font-bold">
+                                        Flask
+                                    </p>
+                                    <p className="text-slate-400 mt-1 text-sm">
+                                        Backend
+                                    </p>
                                 </div>
-                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">Flask</p>
-                                <p className="text-slate-100 ms-4 mt-2 text-xl">Backend</p>
-                             </div>
-                             
-                             <div>
-                                <div className="bg-[#FFF3E0] p-7 rounded-full">
-                                    <SiTensorflow className="text-[#FF6F00] text-5xl"/>
+
+                                <div className="flex flex-col items-center text-center">
+                                    <div className="bg-[#FFF3E0] p-6 rounded-full shadow-lg transition-all duration-300 hover:scale-110">
+                                        <SiTensorflow className="text-[#FF6F00] text-5xl" />
+                                    </div>
+                                    <p className="text-slate-100 mt-4 text-lg font-bold">
+                                        TensorFlow / Keras
+                                    </p>
+                                    <p className="text-slate-400 mt-1 text-sm">
+                                        Deep Learning
+                                    </p>
                                 </div>
-                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">Tensorflow/Keras</p>
-                                <p className="text-slate-100 ms-4 mt-2 text-xl">Deep Learning</p>
-                             </div>
-                             
-                             <div>
-                                <div className="bg-[#E0F7FA] p-7 rounded-full">
-                                    <SiTailwindcss className="text-[#06B6D4] text-5xl"/>
+
+                                <div className="flex flex-col items-center text-center">
+                                    <div className="bg-[#E0F7FA] p-6 rounded-full shadow-lg transition-all duration-300 hover:scale-110">
+                                        <SiTailwindcss className="text-[#06B6D4] text-5xl" />
+                                    </div>
+                                    <p className="text-slate-100 mt-4 text-lg font-bold">
+                                        Tailwind CSS
+                                    </p>
+                                    <p className="text-slate-400 mt-1 text-sm">
+                                        Styling
+                                    </p>
                                 </div>
-                                <p className="text-slate-100 ms-8 mt-2 text-xl font-bold">Tailwindcss</p>
-                                <p className="text-slate-100 ms-4 mt-2 text-xl">Styling</p>
-                             </div>
-                        </div>
-                 </div>
+
+                </div>
+            </div>
             </div>
         </div>
     )
