@@ -41,7 +41,7 @@ const About = () => {
                                 //  transition={{ duration: 1, ease: "easeInOut" }}
                                >
                                  <div className="flex flex-col items-center text-center">
-                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-10 text-emerald-300">
+                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-7 text-emerald-300">
                                      <svg
                                        xmlns="http://www.w3.org/2000/svg"
                                        width="40"
@@ -74,7 +74,7 @@ const About = () => {
                                  </div>
                      
                                  <div className="flex flex-col items-center text-center">
-                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-10 text-emerald-300">
+                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-7 text-emerald-300">
                                      <svg
                                        xmlns="http://www.w3.org/2000/svg"
                                        width="40"
@@ -112,7 +112,7 @@ const About = () => {
                                  </div>
                      
                                  <div className="flex flex-col items-center text-center">
-                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-10 text-emerald-300">
+                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-7 text-emerald-300">
                                      <svg
                                        xmlns="http://www.w3.org/2000/svg"
                                        width="40"
@@ -141,7 +141,7 @@ const About = () => {
                                  </div>
                      
                                  <div className="flex flex-col items-center text-center">
-                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-10 text-emerald-300">
+                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-7 text-emerald-300">
                                      <svg
                                        xmlns="http://www.w3.org/2000/svg"
                                        width="40"
@@ -165,36 +165,7 @@ const About = () => {
                                        Confidence score and advice
                                      </p>
                                    </div>
-                                 </div> <div className="hidden md:flex items-center justify-center">
-                                   <FiArrowRight className="text-4xl text-slate-400" />
-                                 </div>
-                     
-                                 <div className="flex flex-col items-center text-center">
-                                   <div className="bg-emerald-500 rounded-full flex items-center justify-center p-10 text-emerald-300">
-                                     <svg
-                                       xmlns="http://www.w3.org/2000/svg"
-                                       width="40"
-                                       height="40"
-                                       viewBox="0 0 24 24"
-                                       fill="none"
-                                       stroke="currentColor"
-                                       strokeWidth="3"
-                                       strokeLinecap="round"
-                                       strokeLinejoin="round"
-                                     >
-                                       <path d="M20 6 9 17l-5-5" />
-                                     </svg>
-                                   </div>
-                     
-                                   <div className="text-slate-800 mt-3">
-                                     <h1 className="font-bold text-xl">3. Get Result</h1>
-                                     <p className="text-slate-400 mt-3">
-                                       See the disease name
-                                       <br />
-                                       Confidence score and advice
-                                     </p>
-                                   </div>
-                                 </div>
+                                 </div> 
                      </motion.div>
                 </div>
              </div>
