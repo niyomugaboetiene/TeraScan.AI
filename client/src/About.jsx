@@ -62,16 +62,23 @@ const About = () => {
                                 <div className='relative bottom-35 right-0 left-60'>
                                     <FiArrowRight className='text-4xl text-slate-400'/>
                                 </div>
+                            </div>                     <div >
+                            <div className='bg-green-600 rounded-full flex items-center w-25 h-25 px-10 py-10 text-slate-100 ms-10'>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain preview-icon"><path d="M12 18V5"/><path d="M15 13a4.17 4.17 0 01-3-4 4.17 4.17 0 01-3 4"/><path d="M17.707 6.294A3 3 0 1012 5a3 3 0 10-5.707 1.294"/><path d="M17.996 5.125a4 4 0 012.526 5.77"/><path d="M18 18a4 4 0 002-7.465"/><path d="M19.967 17.482a4 4 0 11-7.967.517 4 4 0 11-7.967-.517"/><path d="M6 18a4 4 0 01-2-7.465"/><path d="M6.004 5.125a4 4 0 00-2.526 5.77"/></svg>                    </div>
+                            <div className='text-slate-800 mt-3'>
+                                <h1 className='ms-3 font-bold text-xl'>2. AI Analysis</h1>
+                                <p className='text-slate-400 mt-3'>Our model processes <br /><span className=''>the image using deep learning</span></p>
                             </div>
-                            
-                            <div>
-                                <div className='bg-green-600 rounded-full flex items-center w-25 h-25 px-10 py-10 text-slate-100 ms-10 '>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg>
+                                <div className='relative bottom-35 right-0 left-60'>
+                                    <FiArrowRight className='text-4xl text-slate-400'/>
                                 </div>
-                                <div className='text-slate-800 mt-3'>
-                                    <h1 className='ms-3 font-bold text-xl'>3. Get Result</h1>
-                                    <p className='text-slate-400 mt-3'>See the desease name <br /><span>Confidence score and advice</span></p>
-                                </div>
+                            </div>                     <div >
+                            <div className='bg-green-600 rounded-full flex items-center w-25 h-25 px-10 py-10 text-slate-100 ms-10'>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain preview-icon"><path d="M12 18V5"/><path d="M15 13a4.17 4.17 0 01-3-4 4.17 4.17 0 01-3 4"/><path d="M17.707 6.294A3 3 0 1012 5a3 3 0 10-5.707 1.294"/><path d="M17.996 5.125a4 4 0 012.526 5.77"/><path d="M18 18a4 4 0 002-7.465"/><path d="M19.967 17.482a4 4 0 11-7.967.517 4 4 0 11-7.967-.517"/><path d="M6 18a4 4 0 01-2-7.465"/><path d="M6.004 5.125a4 4 0 00-2.526 5.77"/></svg>                    </div>
+                            <div className='text-slate-800 mt-3'>
+                                <h1 className='ms-3 font-bold text-xl'>2. AI Analysis</h1>
+                                <p className='text-slate-400 mt-3'>Our model processes <br /><span className=''>the image using deep learning</span></p>
+                            </div>
                             </div>
                       </motion.div>
                 </div>
