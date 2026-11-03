@@ -75,26 +75,7 @@ const About = () => {
                      
                                  <div className="flex flex-col items-center text-center">
                                    <div className="bg-emerald-500 rounded-full flex items-center justify-center p-7 text-emerald-300">
-                                     <svg
-                                       xmlns="http://www.w3.org/2000/svg"
-                                       width="40"
-                                       height="40"
-                                       viewBox="0 0 24 24"
-                                       fill="none"
-                                       stroke="currentColor"
-                                       strokeWidth="3"
-                                       strokeLinecap="round"
-                                       strokeLinejoin="round"
-                                     >
-                                       <path d="M12 18V5" />
-                                       <path d="M15 13a4.17 4.17 0 01-3-4 4.17 4.17 0 01-3 4" />
-                                       <path d="M17.707 6.294A3 3 0 1012 5a3 3 0 10-5.707 1.294" />
-                                       <path d="M17.996 5.125a4 4 0 012.526 5.77" />
-                                       <path d="M18 18a4 4 0 002-7.465" />
-                                       <path d="M19.967 17.482a4 4 0 11-7.967.517 4 4 0 11-7.967-.517" />
-                                       <path d="M6 18a4 4 0 01-2-7.465" />
-                                       <path d="M6.004 5.125a4 4 0 00-2.526 5.77" />
-                                     </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scan-search preview-icon"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="3"/><path d="m16 16-1.9-1.9"/></svg>
                                    </div>
                      
                                    <div className="text-slate-800 mt-3">
