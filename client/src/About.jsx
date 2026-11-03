@@ -28,7 +28,8 @@ const About = () => {
 
                 <div>
                     <h1>How It Works</h1>
-                    <p></p>
+                    <p>We combine computer vision and deep learning to analyze <br />
+                      potato leaf images and detect disease with high accuracy</p>
                 </div>
              </div>
         </div>
