@@ -1,5 +1,6 @@
 import SampleBg from "./assets/new_bg.png";
-
+import { motion } from "framer-motion";
+import { FiArrowRight } from "react-icons/fi";
 const About = () => {
 
     return (
