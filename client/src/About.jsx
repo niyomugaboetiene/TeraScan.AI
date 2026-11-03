@@ -1,6 +1,8 @@
 import SampleBg from "./assets/new_bg.png";
 import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
+import{ FaReact, FaFlask } from "react-icons/fa";
+import {SiTailwindcss, SiTensorflow } from "react-icons/si"
 const About = () => {
 
     return (
@@ -127,7 +129,7 @@ const About = () => {
                  <div className="mt-12">
                         <h1 className="text-slate-100 text-4xl font-bold">Technology Used</h1>
                         <div>
-                            
+
                         </div>
                  </div>
             </div>
