@@ -123,8 +123,11 @@ const About = () => {
                                  </div> 
                      </motion.div>
                 </div>
-                <hr className="text-2xl mt-12 text-slate-500"/>
-             </div>
+                 <hr className="mt-12 h-1 border-0 bg-slate-500" />
+                 <div>
+                    
+                 </div>
+            </div>
         </div>
     )
 
