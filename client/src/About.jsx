@@ -128,10 +128,10 @@ const About = () => {
                  <hr className="mt-12 h-0.5 border-0 bg-slate-600" />
                  <div className="mt-12">
                         <h1 className="text-slate-100 text-4xl font-bold">Technology Used</h1>
-                        <div className="flex justify-between">
+                        <div className="flex justify-between mt-4">
                              <div>
-                                <div>
-                                    <FaReact />
+                                <div className="bg-[#20232A] p-7 rounded-full">
+                                    <FaReact className="text-[#61DAFB] text-6xl"/>
                                 </div>
                                 <p>React</p>
                              </div>
