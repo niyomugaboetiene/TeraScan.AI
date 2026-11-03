@@ -15,7 +15,7 @@ const About = () => {
                             technology to improve crop health, increase productivity, <br />
                             and support sustainable agricultural in Rwanda and beyond
                             </p>
-                             <button>Our Mission</button>
+                             <button className="bg-green-400 py-3 px-6 mt-8 rounded-lg text-slate-100 font-bold">Our Mission</button>
                        </div>
                     </div>
                     <div className="ms-92">
