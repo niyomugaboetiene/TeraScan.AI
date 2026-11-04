@@ -1,6 +1,5 @@
 import { FiArrowLeft } from "react-icons/fi";
 import { useLocation, useNavigate, Link } from "react-router-dom";
-
 const Result = () => {
     const { state } = useLocation();
     const navigate = useNavigate();
