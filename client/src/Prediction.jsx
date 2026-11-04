@@ -7,6 +7,7 @@ const Prediction = () => {
   const [preview, setPreview] = useState("");
   const [result, setResult] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const BACKEND_URL = import.meta.env.VITE_REACT_BACKEND_API;
 
   const navigate = useNavigate();
 
@@ -35,7 +36,7 @@ const Prediction = () => {
       formData.append("file", image);
 
       const response = await axios.post(
-        "http://localhost:5000/predict",
+        `${BACKEND_URL}/predict`,
         formData
       );
 
