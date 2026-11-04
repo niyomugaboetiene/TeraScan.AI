@@ -7,27 +7,32 @@ import Prediction from "./Prediction";
 
 const Entry = () => {
     return (
-         <>
-           <section id="home">
+        <>
+            <section id="home">
                 <Home />
-           </section>
-           <section id="how-it-works">
-                <HowItWorks />
-           </section>
-           <section id="prediction">
-               <Prediction />
-           </section>
-           <section id="disease">
-               <Disease />
-           </section>
-           <section id="about">
-            <About />
-           </section>
-           <section id="footer">
-             <Footer />
-           </section>
-        </>
-    )
-}
+            </section>
 
-export default Entry
+            <section id="how-it-works">
+                <HowItWorks />
+            </section>
+
+            <section id="prediction">
+                <Prediction />
+            </section>
+
+            <section id="disease">
+                <Disease />
+            </section>
+
+            <section id="about">
+                <About />
+            </section>
+
+            <section id="footer">
+                <Footer />
+            </section>
+        </>
+    );
+};
+
+export default Entry;
