@@ -148,7 +148,6 @@ const Footer = () => {
 
         <hr className="mt-10 border-0 h-px bg-slate-700" />
 
-        {/* Copyright */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 mt-6">
 
           <p className="text-slate-400 text-sm text-center">
@@ -162,8 +161,6 @@ const Footer = () => {
           </p>
 
         </div>
-
-        {/* Developer Credit */}
         <p className="text-center text-slate-500 text-sm mt-6">
           A Project of{" "}
           <a
