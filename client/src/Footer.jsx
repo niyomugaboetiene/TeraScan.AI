@@ -13,14 +13,10 @@ import Logo from "./assets/logo.jpeg";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0B1F2A] rounded-t-3xl mt-20">
+    <footer className="bg-[#0B1F2A] rounded-t-3xl">
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-14 pb-8">
-
-        {/* Main Footer */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-
-          {/* Brand */}
           <div className="lg:col-span-1">
 
             <div className="flex items-center gap-4">
@@ -47,8 +43,6 @@ const Footer = () => {
             </p>
 
           </div>
-
-          {/* Quick Links */}
           <div>
             <h2 className="text-white text-lg font-bold mb-6">
               Quick Links
@@ -73,7 +67,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Resources */}
           <div>
             <h2 className="text-white text-lg font-bold mb-6">
               Resources
@@ -94,7 +87,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Contact */}
           <div>
             <h2 className="text-white text-lg font-bold mb-6">
               Contact Us
@@ -120,11 +112,10 @@ const Footer = () => {
 
         </div>
 
-        {/* Social Media */}
         <div className="flex items-center gap-4 mt-12">
 
           <a
-            href="YOUR_YOUTUBE_URL"
+            href="https://youtube.com/@codeexplorerrwanda"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="YouTube"
@@ -134,7 +125,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="YOUR_GITHUB_URL"
+            href="https://github.com/niyomugaboetiene"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -155,7 +146,6 @@ const Footer = () => {
 
         </div>
 
-        {/* Divider */}
         <hr className="mt-10 border-0 h-px bg-slate-700" />
 
         {/* Copyright */}
