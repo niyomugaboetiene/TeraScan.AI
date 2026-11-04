@@ -83,7 +83,7 @@ export default function Header() {
                     
                     <Link
                           onClick={() => setActiveLink("/about")}
-                          to={"#about"}
+                          to="#about"
                           className={
                             `text-white text-lg pb-1
                              border-b-2 hover:text-emerald-400
