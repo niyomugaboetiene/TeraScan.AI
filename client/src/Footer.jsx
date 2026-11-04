@@ -77,7 +77,7 @@ const Footer = () => {
                 How It Works
               </a>
 
-              <a href="#faq" className="text-slate-400 hover:text-emerald-400 transition-colors">
+              <a href="#how-it-works" className="text-slate-400 hover:text-emerald-400 transition-colors">
                 FAQ
               </a>
 
