@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-
 import { FiUpload } from "react-icons/fi";
 import { motion } from "framer-motion";
 
