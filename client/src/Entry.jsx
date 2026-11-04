@@ -11,7 +11,7 @@ const Entry = () => {
            <section id="home">
                 <Home />
            </section>
-           <section id="home">
+           <section id="how-it-works">
                 <HowItWorks />
            </section>
            <section id="prediction">

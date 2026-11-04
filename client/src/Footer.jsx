@@ -81,7 +81,7 @@ const Footer = () => {
                 FAQ
               </a>
 
-              <Link to="/about" className="text-slate-400 hover:text-emerald-400 transition-colors">
+              <Link to="/#about" className="text-slate-400 hover:text-emerald-400 transition-colors">
                 About TeraScan
               </Link>
             </div>
