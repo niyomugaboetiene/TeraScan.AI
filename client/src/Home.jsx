@@ -48,7 +48,7 @@ export default function Header() {
                 <nav className="space-x-6 me-12 mt-2 flex items-center">
                     <Link
                           onClick={() => setActiveLink("/")}
-                          to={"#home"}
+                          to="#home"
                           className={
                             `text-white text-lg pb-1
                              border-b-2 hover:text-emerald-400
@@ -59,7 +59,7 @@ export default function Header() {
                     </Link>
                    <Link
                           onClick={() => setActiveLink("/scanner")}
-                          to={"#prediction"}
+                          to="#prediction"
                           className={
                             `text-white text-lg pb-1
                              border-b-2 hover:text-emerald-400
@@ -71,7 +71,7 @@ export default function Header() {
                     
                     <Link
                           onClick={() => setActiveLink("/diesease")}
-                          to={"#disease"}
+                          to="#disease"
                           className={
                             `text-white text-lg pb-1
                              border-b-2 hover:text-emerald-400
