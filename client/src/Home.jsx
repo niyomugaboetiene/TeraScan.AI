@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import {FiFastForward, FiUpload} from "react-icons/fi"
 import { easeOut, motion } from "framer-motion";
 
@@ -8,6 +8,7 @@ import SideImage from "./assets/sample-background-image.jpg";
 
 export default function Header() {
   const [ActiveLink, setActiveLink] = useState("/");
+  const navigate = useNavigate();
 
   return (
     <div className="relative w-full min-h-screen bg-[#06131F] overflow-hidden">
@@ -94,7 +95,7 @@ export default function Header() {
                 </nav>
             </div>
             <div>
-              <button className="bg-emerald-400 hover:bg-emerald-500 text-black font-bold rounded-lg  py-3 px-6">
+              <button onClick={() => navigate("#prediction")} className="bg-emerald-400 hover:bg-emerald-500 text-black font-bold rounded-lg  py-3 px-6">
                   Get Started
              </button>
             </div>
