@@ -47,6 +47,7 @@ export default function Header() {
                 <nav className="space-x-6 me-12 mt-2 flex items-center">
                     <Link
                           onClick={() => setActiveLink("/")}
+                          to={""}
                           className={
                             `text-white text-lg pb-1
                              border-b-2 hover:text-emerald-400
