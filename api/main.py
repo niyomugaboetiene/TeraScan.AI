@@ -19,7 +19,7 @@ app.add_middleware(
      allow_credentials=True
 )
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODEL_PATH = os.path.join(BASE_DIR, "models", "1.keras")
+MODEL_PATH = os.path.join(BASE_DIR, "model", "1.keras")
 MODEL = tf.keras.models.load_model(MODEL_PATH)
 CLASS_NAMES = ["Earily Bright", "Late Bright", "Healthy"]  
 @app.get('/ping')
