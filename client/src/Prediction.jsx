@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -74,23 +73,24 @@ const Prediction = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 2, ease: "easeInOut" }}
-        className="mx-auto w-full max-w-7xl"
+        className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8"
       >
 
-        <div className="mt-12">
-          <h1 className="text-center text-white font-bold text-6xl">
+        <div className="mt-10 sm:mt-12">
+          <h1 className="text-center text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
             Scan your Potato Leaf
           </h1>
 
-          <p className="text-center text-white mt-6 text-2xl">
-            Upload a clear image of a potato leaf to detect its diseases <br />
+          <p className="text-center text-white mt-4 sm:mt-6 text-base sm:text-xl lg:text-2xl">
+            Upload a clear image of a potato leaf to detect its diseases
+            <br className="hidden sm:block" />
             using our AI model.
           </p>
         </div>
 
-        <div className="mt-12 border-2 border-dashed rounded-2xl border-emerald-500 py-10 p-3 mx-auto max-w-3xl">
+        <div className="mt-8 sm:mt-12 border-2 border-dashed rounded-2xl border-emerald-500 py-8 sm:py-10 px-3 sm:px-6 mx-auto max-w-3xl">
 
-          <div className="text-white flex justify-center mt-6">
+          <div className="text-white flex justify-center mt-4 sm:mt-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
@@ -101,7 +101,7 @@ const Prediction = () => {
               strokeWidth="3"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="lucide lucide-cloud-upload preview-icon"
+              className="lucide lucide-cloud-upload preview-icon w-12 h-12 sm:w-16 sm:h-16"
             >
               <path d="M12 13v8" />
               <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
@@ -110,16 +110,16 @@ const Prediction = () => {
           </div>
 
           <div className="mt-4">
-            <p className="text-center text-slate-100 text-xl">
+            <p className="text-center text-slate-100 text-base sm:text-xl">
               Drag and drop your image here
             </p>
 
-            <p className="text-center text-slate-100 text-xl">
+            <p className="text-center text-slate-100 text-base sm:text-xl">
               or
             </p>
           </div>
 
-          <div className="mt-6 flex w-1/4 mx-auto flex-row items-center justify-center gap-3 rounded-2xl bg-emerald-500 py-4 text-slate-100">
+          <div className="mt-6 flex w-full sm:w-1/2 md:w-1/3 mx-auto flex-row items-center justify-center gap-3 rounded-2xl bg-emerald-500 py-3 sm:py-4 text-slate-100">
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@ const Prediction = () => {
 
             <label
               htmlFor="file-upload"
-              className="cursor-pointer font-semibold"
+              className="cursor-pointer font-semibold text-sm sm:text-base"
             >
               Browse File
             </label>
@@ -155,7 +155,7 @@ const Prediction = () => {
 
           </div>
 
-          <div className="text-center text-slate-100 mt-8">
+          <div className="text-center text-slate-100 mt-6 sm:mt-8 text-xs sm:text-sm">
             <p>Supported formats: JPG, JPEG, PNG (Max: 5MB)</p>
           </div>
 
@@ -163,7 +163,7 @@ const Prediction = () => {
 
         {preview && image && (
           <>
-            <div className="mt-12 mx-auto flex max-w-3xl items-center gap-5 rounded-xl border border-slate-700 bg-[#062B36] p-4">
+            <div className="mt-8 sm:mt-12 mx-auto flex flex-col sm:flex-row max-w-3xl items-center gap-4 sm:gap-5 rounded-xl border border-slate-700 bg-[#062B36] p-4">
 
               <img
                 src={preview}
@@ -171,7 +171,7 @@ const Prediction = () => {
                 className="h-24 w-24 shrink-0 rounded-xl object-cover"
               />
 
-              <div className="min-w-0 flex-1">
+              <div className="min-w-0 w-full flex-1 text-center sm:text-left">
                 <h1 className="mb-2 text-lg font-bold text-white">
                   Image Preview
                 </h1>
@@ -199,7 +199,7 @@ const Prediction = () => {
 
             </div>
 
-            <div className="bg-emerald-400 mt-12 mx-auto max-w-3xl flex py-5 justify-center space-x-4 text-slate-100 font-bold rounded-lg cursor-pointer hover:bg-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 hover:scale-[1.02] transition-all duration-300">
+            <div className="bg-emerald-400 mt-8 sm:mt-12 mx-auto max-w-3xl flex flex-wrap items-center py-4 sm:py-5 px-4 justify-center gap-3 text-slate-100 font-bold rounded-lg cursor-pointer hover:bg-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 hover:scale-[1.02] transition-all duration-300">
 
               {isLoading ? (
                 <>
@@ -218,7 +218,7 @@ const Prediction = () => {
                     <path d="M21 12a9 9 0 1 1-6.219-8.56" />
                   </svg>
 
-                  <button type="button" disabled className="cursor-not-allowed">
+                  <button type="button" disabled className="cursor-not-allowed text-sm sm:text-base">
                     Analyzing Image...
                   </button>
                 </>
@@ -246,7 +246,7 @@ const Prediction = () => {
                   <button
                     onClick={handlePrediction}
                     disabled={isLoading}
-                    className="cursor-pointer"
+                    className="cursor-pointer text-sm sm:text-base"
                   >
                     Analyze Image
                   </button>

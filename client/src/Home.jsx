@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { FiUpload } from "react-icons/fi";
 import { motion } from "framer-motion";
@@ -14,7 +13,7 @@ export default function Header() {
     <div className="relative w-full min-h-screen bg-[#06131F] overflow-hidden">
 
       <div className="bg-[#0B1F2A] relative z-10 w-full p-3">
-        <div className="flex justify-between items-center p-5 max-w-7xl mx-auto px-8">
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-5 lg:gap-0 p-3 sm:p-5 max-w-7xl mx-auto px-3 sm:px-8">
 
           <div className="flex items-center gap-3 group cursor-pointer">
 
@@ -46,13 +45,13 @@ export default function Header() {
             </div>
           </div>
 
-          <div>
-            <nav className="space-x-6 me-12 mt-2 flex items-center">
+          <div className="w-full lg:w-auto">
+            <nav className="flex flex-wrap justify-center items-center gap-x-4 sm:gap-x-6 gap-y-3 lg:space-x-6 lg:me-12 lg:mt-2">
 
               <a
                 onClick={() => setActiveLink("/")}
                 href="#home"
-                className={`text-white text-lg pb-1
+                className={`text-sm sm:text-base lg:text-lg pb-1
                             border-b-2 hover:text-emerald-400
                             transition-colors cursor-pointer
                             ${ActiveLink === "/" ? "border-emerald-400 text-emerald-400" : "border-transparent text-white"}`}
@@ -63,7 +62,7 @@ export default function Header() {
               <a
                 onClick={() => setActiveLink("/scanner")}
                 href="#prediction"
-                className={`text-white text-lg pb-1
+                className={`text-sm sm:text-base lg:text-lg pb-1
                             border-b-2 hover:text-emerald-400
                             transition-colors cursor-pointer
                             ${ActiveLink === "/scanner" ? "border-emerald-400 text-emerald-400" : "border-transparent text-white"}`}
@@ -74,7 +73,7 @@ export default function Header() {
               <a
                 onClick={() => setActiveLink("/disease")}
                 href="#disease"
-                className={`text-white text-lg pb-1
+                className={`text-sm sm:text-base lg:text-lg pb-1
                             border-b-2 hover:text-emerald-400
                             transition-colors cursor-pointer
                             ${ActiveLink === "/disease" ? "border-emerald-400 text-emerald-400" : "border-transparent text-white"}`}
@@ -85,7 +84,7 @@ export default function Header() {
               <a
                 onClick={() => setActiveLink("/about")}
                 href="#about"
-                className={`text-white text-lg pb-1
+                className={`text-sm sm:text-base lg:text-lg pb-1
                             border-b-2 hover:text-emerald-400
                             transition-colors cursor-pointer
                             ${ActiveLink === "/about" ? "border-emerald-400 text-emerald-400" : "border-transparent text-white"}`}
@@ -99,7 +98,7 @@ export default function Header() {
           <div>
             <a
               href="#prediction"
-              className="bg-emerald-400 hover:bg-emerald-500 text-black font-bold rounded-lg py-3 px-6"
+              className="bg-emerald-400 hover:bg-emerald-500 text-black font-bold rounded-lg py-2.5 sm:py-3 px-5 sm:px-6 text-sm sm:text-base inline-block"
             >
               Get Started
             </a>
@@ -108,48 +107,48 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="flex justify-between mx-auto max-w-7xl w-full">
+      <div className="flex flex-col lg:flex-row justify-between items-center mx-auto max-w-7xl w-full gap-10 lg:gap-0 px-4 sm:px-6 lg:px-0">
 
         <motion.div
-          className="mt-20 ms-10 w-1/2 shrink-0"
+          className="mt-10 sm:mt-14 lg:mt-20 ms-0 lg:ms-10 w-full lg:w-1/2 shrink-0"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
 
-          <div className="bg-emerald-200 backdrop-blur-md px-4 py-1 w-fit rounded-full ms-5">
-            <p className="text-emerald-700 font-bold text-center">
+          <div className="bg-emerald-200 backdrop-blur-md px-4 py-1 w-fit rounded-full ms-0 sm:ms-5">
+            <p className="text-emerald-700 font-bold text-center text-xs sm:text-sm">
               AI POWERED AGRICULTURE
             </p>
           </div>
 
-          <div className="ms-5 mt-4">
-            <h1 className="text-white font-bold text-7xl">
+          <div className="ms-0 sm:ms-5 mt-4">
+            <h1 className="text-white font-bold text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">
               Healthy Potatoes
               <span className="text-emerald-400">
                 <br /> for a Brighter <br /> Tomorrow
               </span>
             </h1>
 
-            <p className="text-white font-light mt-10 text-xl max-w-xl">
+            <p className="text-white font-light mt-6 sm:mt-10 text-base sm:text-lg lg:text-xl max-w-xl">
               TeraScan AI helps you detect potato diseases using advanced AI.
               Upload a leaf image and get instant results, so you can protect
               your crops and increase your harvest.
             </p>
 
-            <div className="mt-12 flex space-x-4">
+            <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row gap-4">
 
               <a
                 href="#prediction"
-                className="text-lg text-white font-bold py-3 px-6 bg-emerald-400 rounded-lg hover:bg-emerald-500 transition-colors inline-flex"
+                className="text-base sm:text-lg text-white font-bold py-3 px-6 bg-emerald-400 rounded-lg hover:bg-emerald-500 transition-colors inline-flex items-center justify-center"
               >
-                <FiUpload className="me-3 mt-1" />
+                <FiUpload className="me-3" />
                 Open Potato leaf
               </a>
 
               <a
                 href="#how-it-works"
-                className="text-white font-bold py-3 px-6 bg-[#0B1F2A] border-2 border-slate-800 text-lg rounded-lg transition-colors"
+                className="text-white font-bold py-3 px-6 bg-[#0B1F2A] border-2 border-slate-800 text-base sm:text-lg rounded-lg transition-colors text-center"
               >
                 Learn More
               </a>
@@ -160,7 +159,7 @@ export default function Header() {
         </motion.div>
 
         <motion.div
-          className="flex-1 min-w-0"
+          className="w-full lg:flex-1 min-w-0"
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
@@ -168,7 +167,7 @@ export default function Header() {
           <img
             src={SideImage}
             alt="Potato plant"
-            className="w-full h-full object-cover"
+            className="w-full h-auto lg:h-full object-cover rounded-xl lg:rounded-none"
           />
         </motion.div>
 
@@ -178,30 +177,30 @@ export default function Header() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 3, ease: "easeOut" }}
-        className="bg-[#0B1F2A] p-5 max-w-7xl mx-auto px-8"
+        className="bg-[#0B1F2A] p-5 sm:p-6 max-w-7xl mx-auto px-4 sm:px-8 mt-8 lg:mt-0"
       >
 
-        <div className="flex justify-between">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 xl:gap-6">
 
-          <div className="flex space-x-4">
+          <div className="flex items-center space-x-4">
 
-            <div className="bg-emerald-600 rounded-full p-3 py-6 px-6 text-slate-100">
+            <div className="bg-emerald-600 rounded-full p-3 py-5 px-5 sm:py-6 sm:px-6 text-slate-100 shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-gauge preview-icon">
                 <path d="m12 14 4-4" />
                 <path d="M3.34 19a10 10 0 1 1 17.32 0" />
               </svg>
             </div>
 
-            <div className="text-slate-100 mt-3">
+            <div className="text-slate-100">
               <h1>Fast and Accurate</h1>
-              <p>Detect disease in second</p>
+              <p className="text-sm">Detect disease in second</p>
             </div>
 
           </div>
 
-          <div className="flex space-x-4">
+          <div className="flex items-center space-x-4">
 
-            <div className="bg-emerald-600 rounded-full p-3 py-6 px-6 text-slate-100">
+            <div className="bg-emerald-600 rounded-full p-3 py-5 px-5 sm:py-6 sm:px-6 text-slate-100 shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-wand-sparkles preview-icon">
                 <path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72" />
                 <path d="m14 7 3 3" />
@@ -214,40 +213,40 @@ export default function Header() {
               </svg>
             </div>
 
-            <div className="text-slate-100 mt-3">
+            <div className="text-slate-100">
               <h1>Easy to Use</h1>
-              <p>Just upload a leaf image</p>
+              <p className="text-sm">Just upload a leaf image</p>
             </div>
 
           </div>
 
-          <div className="flex space-x-4">
+          <div className="flex items-center space-x-4">
 
-            <div className="bg-emerald-600 rounded-full p-3 py-6 px-6 text-slate-100">
+            <div className="bg-emerald-600 rounded-full p-3 py-5 px-5 sm:py-6 sm:px-6 text-slate-100 shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-zap preview-icon">
                 <path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" />
               </svg>
             </div>
 
-            <div className="text-slate-100 mt-3">
+            <div className="text-slate-100">
               <h1>Boost your yeild</h1>
-              <p>Keep your crops healthy</p>
+              <p className="text-sm">Keep your crops healthy</p>
             </div>
 
           </div>
 
-          <div className="flex space-x-4">
+          <div className="flex items-center space-x-4">
 
-            <div className="bg-emerald-600 rounded-full p-3 py-6 px-6 text-slate-100">
+            <div className="bg-emerald-600 rounded-full p-3 py-5 px-5 sm:py-6 sm:px-6 text-slate-100 shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-tree-pine preview-icon">
                 <path d="m17 14 3 3.3a1 1 0 0 1-.7 1.7H4.7a1 1 0 0 1-.7-1.7L7 14h-.3a1 1 0 0 1-.7-1.7L9 9h-.2A1 1 0 0 1 8 7.3L12 3l4 4.3a1 1 0 0 1-.8 1.7H15l3 3.3a1 1 0 0 1-.7 1.7H17Z" />
                 <path d="M12 22v-3" />
               </svg>
             </div>
 
-            <div className="text-slate-100 mt-3">
+            <div className="text-slate-100">
               <h1>Designed for farmers</h1>
-              <p>Build for Rwanda and beyond</p>
+              <p className="text-sm">Build for Rwanda and beyond</p>
             </div>
 
           </div>
