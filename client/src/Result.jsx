@@ -59,7 +59,6 @@ const Result = () => {
                                     strokeWidth="3"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
-                                    className="me-2"
                                 >
                                     <path d="M20 6 9 17l-5-5" />
                                 </svg>
