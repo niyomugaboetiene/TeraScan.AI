@@ -1,4 +1,3 @@
-
 import {
   FaYoutube,
   FaGithub,
@@ -14,35 +13,33 @@ import Logo from "./assets/logo.jpeg";
 const Footer = () => {
   return (
     <footer className="bg-[#0B1F2A] rounded-t-3xl">
-
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-14 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14 pb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           <div className="lg:col-span-1">
-
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 sm:gap-4">
               <img
                 src={Logo}
                 alt="TeraScan AI Logo"
-                className="h-20 w-20 rounded-full object-cover border-2 border-emerald-400/40"
+                className="h-16 w-16 sm:h-20 sm:w-20 rounded-full object-cover border-2 border-emerald-400/40"
               />
 
               <div>
-                <h1 className="text-emerald-400 text-3xl font-bold">
+                <h1 className="text-emerald-400 text-2xl sm:text-3xl font-bold">
                   TERASCAN <span className="font-normal">AI</span>
                 </h1>
 
-                <p className="text-emerald-300 text-sm mt-1">
+                <p className="text-emerald-300 text-xs sm:text-sm mt-1">
                   Scan smart, keep healthy
                 </p>
               </div>
             </div>
 
-            <p className="text-slate-300 text-base leading-7 mt-6 max-w-sm">
+            <p className="text-slate-300 text-sm sm:text-base leading-7 mt-6 max-w-sm">
               Using Artificial Intelligence to predict potato diseases
               and help farmers in Rwanda and beyond protect their crops.
             </p>
-
           </div>
+
           <div>
             <h2 className="text-white text-lg font-bold mb-6">
               Quick Links
@@ -93,7 +90,6 @@ const Footer = () => {
             </h2>
 
             <div className="flex flex-col gap-5">
-
               <a
                 href="mailto:niyomugaboetiene53@gmail.com"
                 className="flex items-center gap-3 text-slate-400 hover:text-emerald-400 transition-colors break-all"
@@ -106,14 +102,11 @@ const Footer = () => {
                 <FaMapMarkerAlt className="text-emerald-400 shrink-0" />
                 Bugesera, Rwanda
               </p>
-
             </div>
           </div>
-
         </div>
 
-        <div className="flex items-center gap-4 mt-12">
-
+        <div className="flex items-center gap-4 mt-10 sm:mt-12">
           <a
             href="https://youtube.com/@codeexplorerrwanda"
             target="_blank"
@@ -143,13 +136,11 @@ const Footer = () => {
           >
             <FaLinkedin className="text-xl" />
           </a>
-
         </div>
 
         <hr className="mt-10 border-0 h-px bg-slate-700" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 mt-6">
-
           <p className="text-slate-400 text-sm text-center">
             © 2026 TeraScan AI. All rights reserved.
           </p>
@@ -159,12 +150,12 @@ const Footer = () => {
             <FaHeart className="text-red-500" />
             <span>for Farmers</span>
           </p>
-
         </div>
+
         <p className="text-center text-slate-500 text-sm mt-6">
           A Project of{" "}
           <a
-            href="https://github.com/niyomugaboetiene"
+            href="https://niyomugaboetiene.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-emerald-400 hover:text-emerald-300 hover:underline transition-colors font-semibold"
@@ -172,7 +163,6 @@ const Footer = () => {
             Niyomugabo Etiene
           </a>
         </p>
-
       </div>
     </footer>
   );
